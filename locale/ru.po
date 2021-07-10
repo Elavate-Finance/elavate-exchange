@@ -883,20 +883,27 @@ msgid "Liquidity Provider Rewards"
 msgstr "Вознаграждения поставщика ликвидности"
 
 #: src/pages/exchange/pool/index.tsx:111
-msgid ""
-"Liquidity providers earn a 0.25% fee on all trades proportional to their share of\n"
-"the pool. Fees are added to the pool, accrue in real time and can be claimed by\n"
-"withdrawing your liquidity"
-msgstr ""
-"Поставщики ликвидности зарабатывают комиссию 0,25% от всех сделок пропорционально своей доле\n"
-"пула. Комиссии добавляются к пулу, накапливаются в режиме реального времени и могут быть запрошены путем\n"
-"вывода ликвидности"
+#~ msgid ""
+#~ "Liquidity providers earn a 0.25% fee on all trades proportional to their share of\n"
+#~ "the pool. Fees are added to the pool, accrue in real time and can be claimed by\n"
+#~ "withdrawing your liquidity"
+#~ msgstr ""
+#~ "Поставщики ликвидности зарабатывают комиссию 0,25% от всех сделок пропорционально своей доле\n"
+#~ "пула. Комиссии добавляются к пулу, накапливаются в режиме реального времени и могут быть запрошены путем\n"
+#~ "вывода ликвидности"
 
 #~ msgid "Liquidity providers earn a 0.25% fee on all trades proportional to their share ofthe pool. Fees are added to the pool, accrue in real time and can be claimed bywithdrawing your liquidity"
 #~ msgstr ""
 #~ "Поставщики ликвидности зарабатывают комиссию 0,25% от всех сделок пропорционально своей доле \n"
 #~ "пула. Комиссии добавляются к пулу, накапливаются в режиме реального времени и могут быть запрошены \n"
 #~ "путем вывода ликвидности"
+
+#: src/pages/exchange/pool/index.tsx:111
+msgid ""
+"Liquidity providers earn a 0.3% fee on all trades proportional to their share of\n"
+"the pool. Fees are added to the pool, accrue in real time and can be claimed by\n"
+"withdrawing your liquidity"
+msgstr ""
 
 #: src/modals/SearchModal/Manage.tsx:58
 msgid "Lists"

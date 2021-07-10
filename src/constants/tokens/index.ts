@@ -1,10 +1,10 @@
-import { ChainId, Ether, SUSHI_ADDRESS, Token, WETH9, WNATIVE } from '@sushiswap/sdk'
+import { ChainId, Ether, SUSHI_ADDRESS, Token, WETH9, WNATIVE } from '../../sushiswap/sdk'
 
 import { SupportedChainId } from '../chains'
 
-// export const ELASTOS: { [key: string]: Token } = {
-//   WELA: new Token(ChainId.ELASTOS, '0x517e9e5d46c1ea8ab6f78677d6114ef47f71f6c4', 18, 'WELA', 'Wrapped Elastos'),
-// }
+export const ELASTOS: { [key: string]: Token } = {
+  WELA: new Token(20, '0x517e9e5d46c1ea8ab6f78677d6114ef47f71f6c4', 18, 'WELA', 'Wrapped Elastos'),
+}
 
 export const CELO: { [key: string]: Token } = {
   mCUSD: new Token(ChainId.CELO, '0x64dEFa3544c695db8c535D289d843a189aa26b98', 18, 'mCUSD', 'Moola cUSD'),

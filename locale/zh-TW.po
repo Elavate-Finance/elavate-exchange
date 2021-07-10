@@ -847,14 +847,21 @@ msgid "Liquidity Provider Rewards"
 msgstr "LP獎勵"
 
 #: src/pages/exchange/pool/index.tsx:111
-msgid ""
-"Liquidity providers earn a 0.25% fee on all trades proportional to their share of\n"
-"the pool. Fees are added to the pool, accrue in real time and can be claimed by\n"
-"withdrawing your liquidity"
-msgstr "流動性提供者(LP)可按比例收取流動性池中交易額的0.25%作為手續費收入。手續費收入將被直接實時添加至流動性池，在撤出流動性時可收取。"
+#~ msgid ""
+#~ "Liquidity providers earn a 0.25% fee on all trades proportional to their share of\n"
+#~ "the pool. Fees are added to the pool, accrue in real time and can be claimed by\n"
+#~ "withdrawing your liquidity"
+#~ msgstr "流動性提供者(LP)可按比例收取流動性池中交易額的0.25%作為手續費收入。手續費收入將被直接實時添加至流動性池，在撤出流動性時可收取。"
 
 #~ msgid "Liquidity providers earn a 0.25% fee on all trades proportional to their share ofthe pool. Fees are added to the pool, accrue in real time and can be claimed bywithdrawing your liquidity"
 #~ msgstr "流動性提供者(LP)可按比例收取流動性池中交易額的0.25%作為手續費收入。手續費收入將被直接實時添加至流動性池，在撤出流動性時可收取。"
+
+#: src/pages/exchange/pool/index.tsx:111
+msgid ""
+"Liquidity providers earn a 0.3% fee on all trades proportional to their share of\n"
+"the pool. Fees are added to the pool, accrue in real time and can be claimed by\n"
+"withdrawing your liquidity"
+msgstr ""
 
 #: src/modals/SearchModal/Manage.tsx:58
 msgid "Lists"

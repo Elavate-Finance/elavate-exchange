@@ -1,5 +1,5 @@
 import { AppState } from '..'
-import DEFAULT_TOKEN_LIST from '@sushiswap/default-token-list'
+import DEFAULT_TOKEN_LIST from '../../sushiswap/default-token-list'
 import { TokenList } from '@uniswap/token-lists'
 import { UNSUPPORTED_LIST_URLS } from '../../constants/token-lists'
 import UNSUPPORTED_TOKEN_LIST from '../../constants/token-lists/sushiswap-v2-unsupported.tokenlist.json'
@@ -74,6 +74,7 @@ function combineMaps(map1: TokenAddressMap, map2: TokenAddressMap): TokenAddress
     66: { ...map1[66], ...map2[66] }, // okex
     65: { ...map1[65], ...map2[65] }, // okex testnet
     42220: { ...map1[42220], ...map2[42220] }, // celo
+    20: { ...map1[20], ...map2[20] }, // elastos
   }
 }
 

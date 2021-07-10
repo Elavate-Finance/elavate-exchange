@@ -860,17 +860,24 @@ msgid "Liquidity Provider Rewards"
 msgstr "유동성 제공자 보상"
 
 #: src/pages/exchange/pool/index.tsx:111
-msgid ""
-"Liquidity providers earn a 0.25% fee on all trades proportional to their share of\n"
-"the pool. Fees are added to the pool, accrue in real time and can be claimed by\n"
-"withdrawing your liquidity"
-msgstr ""
-"유동성 공급자들은 풀에 대한 지분에 따라 거래 시 발생하는 0.25%의 수수료의 일부를 받게 됩니다.\n"
-"수수료는 풀에 포함되며 실시간으로 발생하고 유동성 출금 시에 받게 됩니다.\n"
-""
+#~ msgid ""
+#~ "Liquidity providers earn a 0.25% fee on all trades proportional to their share of\n"
+#~ "the pool. Fees are added to the pool, accrue in real time and can be claimed by\n"
+#~ "withdrawing your liquidity"
+#~ msgstr ""
+#~ "유동성 공급자들은 풀에 대한 지분에 따라 거래 시 발생하는 0.25%의 수수료의 일부를 받게 됩니다.\n"
+#~ "수수료는 풀에 포함되며 실시간으로 발생하고 유동성 출금 시에 받게 됩니다.\n"
+#~ ""
 
 #~ msgid "Liquidity providers earn a 0.25% fee on all trades proportional to their share ofthe pool. Fees are added to the pool, accrue in real time and can be claimed bywithdrawing your liquidity"
 #~ msgstr "유동성 공급자들은 풀에 대한 지분에 따라 거래시 발생하는 0.25%의 수수료의 일부를 받게 됩니다. 수수료는 풀에 포함되며 실시간으로 발생하고 유동성 출금 시에 받게 됩니다."
+
+#: src/pages/exchange/pool/index.tsx:111
+msgid ""
+"Liquidity providers earn a 0.3% fee on all trades proportional to their share of\n"
+"the pool. Fees are added to the pool, accrue in real time and can be claimed by\n"
+"withdrawing your liquidity"
+msgstr ""
 
 #: src/modals/SearchModal/Manage.tsx:58
 msgid "Lists"

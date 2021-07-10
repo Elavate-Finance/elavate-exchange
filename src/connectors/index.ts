@@ -1,7 +1,7 @@
 import { ExternalProvider, JsonRpcFetchFunc, Web3Provider } from '@ethersproject/providers'
 
 import { BscConnector } from '@binance-chain/bsc-connector'
-import { ChainId } from '@sushiswap/sdk'
+import { ChainId } from '../sushiswap/sdk'
 import { FortmaticConnector } from './Fortmatic'
 import { InjectedConnector } from '@web3-react/injected-connector'
 import { LatticeConnector } from '@web3-react/lattice-connector'
@@ -10,6 +10,8 @@ import { PortisConnector } from '@web3-react/portis-connector'
 import { TorusConnector } from '@web3-react/torus-connector'
 import { WalletConnectConnector } from '@web3-react/walletconnect-connector'
 import { WalletLinkConnector } from '@web3-react/walletlink-connector'
+
+console.log(ChainId.ELASTOS)
 
 const RPC = {
   [ChainId.MAINNET]: 'https://eth-mainnet.alchemyapi.io/v2/q1gSNoSMEzJms47Qn93f9-9Xg5clkmEC',
@@ -36,8 +38,11 @@ const RPC = {
   [ChainId.OKEX]: 'https://exchainrpc.okex.org',
   [ChainId.OKEX_TESTNET]: 'https://exchaintestrpc.okex.org',
   [ChainId.ARBITRUM]: 'https://arb1.arbitrum.io/rpc',
+  20: 'https://api.elastos.io/eth', // ChainId.ELASTOS ?? not working
 }
 
+console.log(RPC)
+console.log(NetworkConnector)
 export const network = new NetworkConnector({
   defaultChainId: 1,
   urls: RPC,
@@ -74,6 +79,7 @@ export const injected = new InjectedConnector({
     65, // okex testnet
     42161, // arbitrum
     42220, // celo
+    20, // elastos
   ],
 })
 

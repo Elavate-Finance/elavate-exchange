@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/sdk'
+import { ChainId } from '../sushiswap/sdk'
 
 const Arbitrum = '/images/networks/arbitrum-network.jpg'
 const Avalanche = '/images/networks/avalanche-network.jpg'
@@ -44,7 +44,7 @@ export const NETWORK_ICON = {
   [ChainId.OKEX]: OKEx,
   [ChainId.OKEX_TESTNET]: OKEx,
   [ChainId.CELO]: Celo,
-  [ChainId.ELASTOS]: Elastos
+  [ChainId.ELASTOS]: Elastos,
 }
 
 export const NETWORK_LABEL: { [chainId in ChainId]?: string } = {
@@ -72,5 +72,5 @@ export const NETWORK_LABEL: { [chainId in ChainId]?: string } = {
   [ChainId.OKEX]: 'OKEx',
   [ChainId.OKEX_TESTNET]: 'OKEx',
   [ChainId.CELO]: 'Celo',
-  // [ChainId.ELASTOS]: 'Elastos'
+  [ChainId.ELASTOS]: 'Elastos',
 }

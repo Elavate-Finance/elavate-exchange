@@ -875,20 +875,27 @@ msgid "Liquidity Provider Rewards"
 msgstr "Phần thưởng của nhà cung cấp thanh khoản"
 
 #: src/pages/exchange/pool/index.tsx:111
-msgid ""
-"Liquidity providers earn a 0.25% fee on all trades proportional to their share of\n"
-"the pool. Fees are added to the pool, accrue in real time and can be claimed by\n"
-"withdrawing your liquidity"
-msgstr ""
-"Các nhà cung cấp tính thanh khoản kiếm được khoản phí 0,25% trên tất cả các giao dịch tỷ lệ với cổ phần của họ trong\n"
-"mạng lưới. Phí được thêm vào mạng lưới, tích lũy theo thời gian thực và có thể được yêu cầu bằng cách\n"
-"rút thanh khoản của bạn"
+#~ msgid ""
+#~ "Liquidity providers earn a 0.25% fee on all trades proportional to their share of\n"
+#~ "the pool. Fees are added to the pool, accrue in real time and can be claimed by\n"
+#~ "withdrawing your liquidity"
+#~ msgstr ""
+#~ "Các nhà cung cấp tính thanh khoản kiếm được khoản phí 0,25% trên tất cả các giao dịch tỷ lệ với cổ phần của họ trong\n"
+#~ "mạng lưới. Phí được thêm vào mạng lưới, tích lũy theo thời gian thực và có thể được yêu cầu bằng cách\n"
+#~ "rút thanh khoản của bạn"
 
 #~ msgid "Liquidity providers earn a 0.25% fee on all trades proportional to their share ofthe pool. Fees are added to the pool, accrue in real time and can be claimed bywithdrawing your liquidity"
 #~ msgstr ""
 #~ "Các nhà cung cấp thanh khoản kiếm được một khoản phí 0,25% trên tất cả các giao dịch tỷ lệ với cổ phần của họ\n"
 #~ "trong mạng lưới. Phí được thêm vào mạng lưới, tích lũy theo thời gian thực và có thể được yêu cầu bằng cách\n"
 #~ "rút thanh khoản của bạn"
+
+#: src/pages/exchange/pool/index.tsx:111
+msgid ""
+"Liquidity providers earn a 0.3% fee on all trades proportional to their share of\n"
+"the pool. Fees are added to the pool, accrue in real time and can be claimed by\n"
+"withdrawing your liquidity"
+msgstr ""
 
 #: src/modals/SearchModal/Manage.tsx:58
 msgid "Lists"

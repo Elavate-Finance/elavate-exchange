@@ -1,7 +1,17 @@
-import { ChainId } from '@sushiswap/sdk'
+import { ChainId } from '../sushiswap/sdk'
 
 // Multichain Explorer
 const builders = {
+  elastos: (chainName: string, data: string, type: 'transaction' | 'token' | 'address' | 'block') => {
+    const prefix = `https://${chainName ? `${chainName}.` : ''}eth.elastos.io/`
+    switch (type) {
+      case 'transaction':
+        return `${prefix}/tx/${data}`
+      default:
+        return `${prefix}/${type}/${data}`
+    }
+  },
+
   etherscan: (chainName: string, data: string, type: 'transaction' | 'token' | 'address' | 'block') => {
     const prefix = `https://${chainName ? `${chainName}.` : ''}etherscan.io`
     switch (type) {
@@ -175,6 +185,10 @@ interface ChainObject {
 }
 
 const chains: ChainObject = {
+  [ChainId.ELASTOS]: {
+    chainName: '',
+    builder: builders.elastos,
+  },
   [ChainId.MAINNET]: {
     chainName: '',
     builder: builders.etherscan,

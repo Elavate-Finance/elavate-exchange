@@ -883,20 +883,27 @@ msgid "Liquidity Provider Rewards"
 msgstr "Recompense pentru furnizorul de lichidități"
 
 #: src/pages/exchange/pool/index.tsx:111
-msgid ""
-"Liquidity providers earn a 0.25% fee on all trades proportional to their share of\n"
-"the pool. Fees are added to the pool, accrue in real time and can be claimed by\n"
-"withdrawing your liquidity"
-msgstr ""
-"Furnizorii de lichidități câștigă un comision de 0,25% pentru toate tranzacțiile, proporțional cu cota aferentă din\n"
-"fondul comun. Comisioanele sunt adăugate la fondul comun, se acumulează în timp real și pot fi revendicate prin\n"
-"retragerea propriei lichidități"
+#~ msgid ""
+#~ "Liquidity providers earn a 0.25% fee on all trades proportional to their share of\n"
+#~ "the pool. Fees are added to the pool, accrue in real time and can be claimed by\n"
+#~ "withdrawing your liquidity"
+#~ msgstr ""
+#~ "Furnizorii de lichidități câștigă un comision de 0,25% pentru toate tranzacțiile, proporțional cu cota aferentă din\n"
+#~ "fondul comun. Comisioanele sunt adăugate la fondul comun, se acumulează în timp real și pot fi revendicate prin\n"
+#~ "retragerea propriei lichidități"
 
 #~ msgid "Liquidity providers earn a 0.25% fee on all trades proportional to their share ofthe pool. Fees are added to the pool, accrue in real time and can be claimed bywithdrawing your liquidity"
 #~ msgstr ""
 #~ "Furnizorii de lichidități câștigă un comision de 0,25% pentru toate tranzacțiile, proporțional cu cota aferentă din \n"
 #~ "fondul comun. Comisioanele sunt adăugate la fondul comun, se acumulează în timp real și pot fi revendicate prin \n"
 #~ "retragerea propriei lichidități"
+
+#: src/pages/exchange/pool/index.tsx:111
+msgid ""
+"Liquidity providers earn a 0.3% fee on all trades proportional to their share of\n"
+"the pool. Fees are added to the pool, accrue in real time and can be claimed by\n"
+"withdrawing your liquidity"
+msgstr ""
 
 #: src/modals/SearchModal/Manage.tsx:58
 msgid "Lists"

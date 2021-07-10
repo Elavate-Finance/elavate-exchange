@@ -880,14 +880,21 @@ msgid "Liquidity Provider Rewards"
 msgstr "Ricompense per fornitori di liquidità"
 
 #: src/pages/exchange/pool/index.tsx:111
-msgid ""
-"Liquidity providers earn a 0.25% fee on all trades proportional to their share of\n"
-"the pool. Fees are added to the pool, accrue in real time and can be claimed by\n"
-"withdrawing your liquidity"
-msgstr "I fornitori di liquidità guadagnano una commissione dello 0,25% su tutte le operazioni in proporzione alla loro quota del pool. Le commissioni vengono aggiunte al pool, maturano in tempo reale e possono essere riscattate prelevando la tua liquidità."
+#~ msgid ""
+#~ "Liquidity providers earn a 0.25% fee on all trades proportional to their share of\n"
+#~ "the pool. Fees are added to the pool, accrue in real time and can be claimed by\n"
+#~ "withdrawing your liquidity"
+#~ msgstr "I fornitori di liquidità guadagnano una commissione dello 0,25% su tutte le operazioni in proporzione alla loro quota del pool. Le commissioni vengono aggiunte al pool, maturano in tempo reale e possono essere riscattate prelevando la tua liquidità."
 
 #~ msgid "Liquidity providers earn a 0.25% fee on all trades proportional to their share ofthe pool. Fees are added to the pool, accrue in real time and can be claimed bywithdrawing your liquidity"
 #~ msgstr "I fornitori di liquidità guadagnano una commissione dello 0,25% su tutte le operazioni in proporzione alla loro quota del pool. Le commissioni vengono aggiunte al pool, maturano in tempo reale e possono essere riscattate prelevando la tua liquidità."
+
+#: src/pages/exchange/pool/index.tsx:111
+msgid ""
+"Liquidity providers earn a 0.3% fee on all trades proportional to their share of\n"
+"the pool. Fees are added to the pool, accrue in real time and can be claimed by\n"
+"withdrawing your liquidity"
+msgstr ""
 
 #: src/modals/SearchModal/Manage.tsx:58
 msgid "Lists"
