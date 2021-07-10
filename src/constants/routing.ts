@@ -85,7 +85,7 @@ const MIRROR_ADDITIONAL_BASES: { [tokenAddress: string]: Token[] } = {
 }
 
 // TODO: SDK should have two maps, WETH map and WNATIVE map.
-const WRAPPED_NATIVE_ONLY: ChainTokenList = {
+const WRAPPED_NATIVE_ONLY = {
   [ChainId.MAINNET]: [WNATIVE[ChainId.MAINNET]],
   [ChainId.ROPSTEN]: [WNATIVE[ChainId.ROPSTEN]],
   [ChainId.RINKEBY]: [WNATIVE[ChainId.RINKEBY]],
@@ -110,13 +110,13 @@ const WRAPPED_NATIVE_ONLY: ChainTokenList = {
   [ChainId.OKEX]: [WNATIVE[ChainId.OKEX]],
   [ChainId.OKEX_TESTNET]: [WNATIVE[ChainId.OKEX_TESTNET]],
   [ChainId.CELO]: [WNATIVE[ChainId.CELO]],
-  [ChainId.ELASTOS]: [WNATIVE[ChainId.ELASTOS]],
+  20: [WNATIVE[20]],
 }
 
 // used to construct intermediary pairs for trading
-export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
+export const BASES_TO_CHECK_TRADES_AGAINST = {
   ...WRAPPED_NATIVE_ONLY,
-  [ChainId.ELASTOS]: [...WRAPPED_NATIVE_ONLY[ChainId.ELASTOS]],
+  20: [...WRAPPED_NATIVE_ONLY[20]],
   [ChainId.MAINNET]: [...WRAPPED_NATIVE_ONLY[ChainId.MAINNET], DAI, USDC, USDT, WBTC, RUNE, NFTX, STETH],
   [ChainId.MATIC]: [...WRAPPED_NATIVE_ONLY[ChainId.MATIC], MATIC.USDC, MATIC.WBTC, MATIC.DAI, MATIC.WETH, MATIC.USDT],
   [ChainId.FANTOM]: [...WRAPPED_NATIVE_ONLY[ChainId.FANTOM], FANTOM.DAI, FANTOM.USDC, FANTOM.WBTC, FANTOM.WETH],
@@ -227,8 +227,8 @@ export const CUSTOM_BASES: {
 /**
  * Shows up in the currency select for swap and add liquidity
  */
-export const COMMON_BASES: ChainTokenList = {
-  [ChainId.ELASTOS]: [...WRAPPED_NATIVE_ONLY[ChainId.ELASTOS]],
+export const COMMON_BASES = {
+  20: [...WRAPPED_NATIVE_ONLY[20]],
   [ChainId.MAINNET]: [...WRAPPED_NATIVE_ONLY[ChainId.MAINNET], DAI, USDC, USDT, WBTC],
   [ChainId.MATIC]: [...WRAPPED_NATIVE_ONLY[ChainId.MATIC], MATIC.USDC, MATIC.WBTC, MATIC.DAI, MATIC.WETH, MATIC.USDT],
   [ChainId.FANTOM]: [...WRAPPED_NATIVE_ONLY[ChainId.FANTOM], FANTOM.DAI, FANTOM.USDC, FANTOM.WBTC, FANTOM.WETH],
@@ -262,9 +262,9 @@ export const COMMON_BASES: ChainTokenList = {
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
-export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
+export const BASES_TO_TRACK_LIQUIDITY_FOR = {
   ...WRAPPED_NATIVE_ONLY,
-  [ChainId.ELASTOS]: [...WRAPPED_NATIVE_ONLY[ChainId.ELASTOS]],
+  20: [...WRAPPED_NATIVE_ONLY[20]],
   [ChainId.MAINNET]: [...WRAPPED_NATIVE_ONLY[ChainId.MAINNET], DAI, USDC, USDT, WBTC],
   [ChainId.MATIC]: [...WRAPPED_NATIVE_ONLY[ChainId.MATIC], MATIC.USDC, MATIC.WBTC, MATIC.DAI, MATIC.WETH, MATIC.USDT],
   [ChainId.FANTOM]: [...WRAPPED_NATIVE_ONLY[ChainId.FANTOM], FANTOM.DAI, FANTOM.USDC, FANTOM.WBTC, FANTOM.WETH],

@@ -1,5 +1,4 @@
 import { ExternalProvider, JsonRpcFetchFunc, Web3Provider } from '@ethersproject/providers'
-
 import { BscConnector } from '@binance-chain/bsc-connector'
 import { ChainId } from '../sushiswap/sdk'
 import { FortmaticConnector } from './Fortmatic'
@@ -10,8 +9,6 @@ import { PortisConnector } from '@web3-react/portis-connector'
 import { TorusConnector } from '@web3-react/torus-connector'
 import { WalletConnectConnector } from '@web3-react/walletconnect-connector'
 import { WalletLinkConnector } from '@web3-react/walletlink-connector'
-
-console.log(ChainId.ELASTOS)
 
 const RPC = {
   [ChainId.MAINNET]: 'https://eth-mainnet.alchemyapi.io/v2/q1gSNoSMEzJms47Qn93f9-9Xg5clkmEC',

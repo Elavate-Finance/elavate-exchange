@@ -44,10 +44,10 @@ export const NETWORK_ICON = {
   [ChainId.OKEX]: OKEx,
   [ChainId.OKEX_TESTNET]: OKEx,
   [ChainId.CELO]: Celo,
-  [ChainId.ELASTOS]: Elastos,
+  20: Elastos,
 }
 
-export const NETWORK_LABEL: { [chainId in ChainId]?: string } = {
+export const NETWORK_LABEL = {
   [ChainId.MAINNET]: 'Ethereum',
   [ChainId.RINKEBY]: 'Rinkeby',
   [ChainId.ROPSTEN]: 'Ropsten',
@@ -72,5 +72,5 @@ export const NETWORK_LABEL: { [chainId in ChainId]?: string } = {
   [ChainId.OKEX]: 'OKEx',
   [ChainId.OKEX_TESTNET]: 'OKEx',
   [ChainId.CELO]: 'Celo',
-  [ChainId.ELASTOS]: 'Elastos',
+  20: 'Elastos',
 }

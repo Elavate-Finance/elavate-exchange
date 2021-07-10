@@ -185,7 +185,7 @@ interface ChainObject {
 }
 
 const chains: ChainObject = {
-  [ChainId.ELASTOS]: {
+  20: {
     chainName: '',
     builder: builders.elastos,
   },
