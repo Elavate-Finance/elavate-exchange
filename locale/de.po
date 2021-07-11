@@ -95,7 +95,7 @@ msgid "Accept"
 msgstr "Akzeptieren"
 
 #: src/components/PositionCard/index.tsx:245
-#: src/pages/exchange/pool/index.tsx:154
+#: src/pages/exchange/pool/index.tsx:153
 msgid "Add"
 msgstr "Hinzufügen"
 
@@ -173,7 +173,7 @@ msgstr "Genehmige Kashi"
 
 #: src/pages/exchange/add/[[...tokens]].tsx:479
 #: src/pages/exchange/add/[[...tokens]].tsx:496
-#: src/pages/exchange/swap/[[...tokens]].tsx:606
+#: src/pages/exchange/swap/[[...tokens]].tsx:608
 msgid "Approve {0}"
 msgstr "Genehmige {0}"
 
@@ -215,7 +215,7 @@ msgstr "Verfügbar"
 msgid "Balance"
 msgstr "Guthaben"
 
-#: src/components/CurrencyInputPanel/index.tsx:166
+#: src/components/CurrencyInputPanel/index.tsx:169
 msgid "Balance:"
 msgstr ""
 
@@ -724,7 +724,7 @@ msgid "If you want to supply to a market that is not listed yet, you can use thi
 msgstr ""
 
 #: src/modals/SearchModal/ImportToken.tsx:88
-#: src/pages/exchange/pool/index.tsx:157
+#: src/pages/exchange/pool/index.tsx:156
 msgid "Import"
 msgstr ""
 
@@ -759,7 +759,7 @@ msgstr "Zu wenig Guthaben"
 #~ msgid "Insufficient WETH balance"
 #~ msgstr "Zu wenig WETH-Guthaben"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:591
+#: src/pages/exchange/swap/[[...tokens]].tsx:593
 msgid "Insufficient liquidity for this trade"
 msgstr "Unzureichende Liquidität für diesen Trade"
 
@@ -865,7 +865,7 @@ msgstr "Liquidität"
 msgid "Liquidity Provider Fee"
 msgstr "Gebühr für Liquiditätsanbieter"
 
-#: src/pages/exchange/pool/index.tsx:110
+#: src/pages/exchange/pool/index.tsx:109
 msgid "Liquidity Provider Rewards"
 msgstr "Belohnungen für Liquiditätsanbieter"
 
@@ -882,7 +882,7 @@ msgstr "Belohnungen für Liquiditätsanbieter"
 #~ msgid "Liquidity providers earn a 0.25% fee on all trades proportional to their share ofthe pool. Fees are added to the pool, accrue in real time and can be claimed bywithdrawing your liquidity"
 #~ msgstr "Liquiditätsanbieter verdienen 0,25 % Gebühr auf alle Trades proportional zu ihrem Anteil am Pool. Die Gebühren werden dem Pool hinzugefügt, fallen in Echtzeit an und können eingefordert werden, indem Sie Ihre Liquidität entnehmen."
 
-#: src/pages/exchange/pool/index.tsx:111
+#: src/pages/exchange/pool/index.tsx:110
 msgid ""
 "Liquidity providers earn a 0.3% fee on all trades proportional to their share of\n"
 "the pool. Fees are added to the pool, accrue in real time and can be claimed by\n"
@@ -897,7 +897,7 @@ msgstr "Listen"
 #: src/components/TransactionList.tsx:40
 #: src/pages/exchange/find/index.tsx:176
 #: src/pages/exchange/migrate/index.tsx:215
-#: src/pages/exchange/pool/index.tsx:123
+#: src/pages/exchange/pool/index.tsx:122
 #: src/pages/user/index.tsx:93
 msgid "Loading"
 msgstr "Wird geladen"
@@ -977,7 +977,7 @@ msgstr "Märkte"
 msgid "Matic Bridge"
 msgstr ""
 
-#: src/components/CurrencyInputPanel/index.tsx:149
+#: src/components/CurrencyInputPanel/index.tsx:152
 #: src/features/meowshi/CurrencyInputPanel.tsx:90
 msgid "Max"
 msgstr "Max"
@@ -998,7 +998,7 @@ msgstr ""
 #: src/components/Header/index.tsx:65
 #: src/components/Header/index.tsx:299
 #: src/pages/exchange/migrate/index.tsx:244
-#: src/pages/exchange/pool/index.tsx:162
+#: src/pages/exchange/pool/index.tsx:161
 msgid "Migrate"
 msgstr "Migrieren"
 
@@ -1031,7 +1031,7 @@ msgstr "Minimum erhalten"
 #~ msgid "Missed the Auction?"
 #~ msgstr ""
 
-#: src/pages/exchange/pool/index.tsx:105
+#: src/pages/exchange/pool/index.tsx:104
 msgid "My Liquidity Positions"
 msgstr ""
 
@@ -1072,7 +1072,7 @@ msgstr "Es wurde keine Liquidität für einen Swap gefunden"
 #~ msgid "No liquidity positions found"
 #~ msgstr "Keine Liquiditätspositionen gefunden"
 
-#: src/pages/exchange/pool/index.tsx:144
+#: src/pages/exchange/pool/index.tsx:143
 msgid "No liquidity was found."
 msgstr ""
 
@@ -1220,11 +1220,11 @@ msgstr "Positionen"
 msgid "Price Impact"
 msgstr "Preisauswirkung"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:636
+#: src/pages/exchange/swap/[[...tokens]].tsx:638
 msgid "Price Impact High"
 msgstr "Preisauswirkung hoch"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:665
+#: src/pages/exchange/swap/[[...tokens]].tsx:667
 msgid "Price Impact Too High"
 msgstr "Preisauswirkung zu hoch"
 
@@ -1253,7 +1253,7 @@ msgstr "Entfernen"
 msgid "Remove Liquidity"
 msgstr "Liquidität entfernen"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:518
+#: src/pages/exchange/swap/[[...tokens]].tsx:520
 msgid "Remove recipient"
 msgstr ""
 
@@ -1339,7 +1339,7 @@ msgstr ""
 msgid "Select a collateral token"
 msgstr ""
 
-#: src/components/CurrencyInputPanel/index.tsx:121
+#: src/components/CurrencyInputPanel/index.tsx:124
 #: src/components/CurrencySelectPanel/index.tsx:95
 #: src/state/swap/hooks.ts:187
 msgid "Select a token"
@@ -1466,36 +1466,36 @@ msgstr "Sushi unterstützt Open Source."
 #~ msgid "SushiBar: Make SUSHI work for you"
 #~ msgstr "SushiBar: Lassen Sie SUSHI für sich arbeiten"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:428
+#: src/pages/exchange/swap/[[...tokens]].tsx:430
 msgid "SushiSwap"
 msgstr ""
 
 #: src/components/ExchangeHeader.tsx:49
 #: src/components/Header/index.tsx:48
 #: src/components/Header/index.tsx:282
-#: src/pages/exchange/swap/[[...tokens]].tsx:639
-#: src/pages/exchange/swap/[[...tokens]].tsx:668
+#: src/pages/exchange/swap/[[...tokens]].tsx:641
+#: src/pages/exchange/swap/[[...tokens]].tsx:670
 msgid "Swap"
 msgstr "Swap"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:638
-#: src/pages/exchange/swap/[[...tokens]].tsx:667
+#: src/pages/exchange/swap/[[...tokens]].tsx:640
+#: src/pages/exchange/swap/[[...tokens]].tsx:669
 msgid "Swap Anyway"
 msgstr "Dennoch Swap durchführen"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:469
+#: src/pages/exchange/swap/[[...tokens]].tsx:471
 msgid "Swap From (est.):"
 msgstr "Swap von (est.):"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:469
+#: src/pages/exchange/swap/[[...tokens]].tsx:471
 msgid "Swap From:"
 msgstr "Swap von:"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:529
+#: src/pages/exchange/swap/[[...tokens]].tsx:531
 msgid "Swap To (est.):"
 msgstr "Swap To (est.):"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:529
+#: src/pages/exchange/swap/[[...tokens]].tsx:531
 msgid "Swap To:"
 msgstr "Swap zu:"
 
@@ -1642,7 +1642,7 @@ msgstr "Transaktionsfrist"
 #~ msgid "Transactions"
 #~ msgstr "Transaktionen"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:592
+#: src/pages/exchange/swap/[[...tokens]].tsx:594
 msgid "Try enabling multi-hop trades"
 msgstr "Versuchen Sie, Multi-Hop-Trades zu aktivieren."
 
@@ -1668,11 +1668,11 @@ msgid "Unstaked"
 msgstr "Unstaked"
 
 #: src/pages/exchange/add/[[...tokens]].tsx:453
-#: src/pages/exchange/swap/[[...tokens]].tsx:576
+#: src/pages/exchange/swap/[[...tokens]].tsx:578
 msgid "Unsupported Asset"
 msgstr "Nicht unterstütztes Asset"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:586
+#: src/pages/exchange/swap/[[...tokens]].tsx:588
 msgid "Unwrap"
 msgstr "Auspacken"
 
@@ -1786,7 +1786,7 @@ msgstr "Abheben"
 #~ msgid "Withdraw {assetSymbol}"
 #~ msgstr "{assetSymbol} entnehmen"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:584
+#: src/pages/exchange/swap/[[...tokens]].tsx:586
 msgid "Wrap"
 msgstr "Wrap"
 

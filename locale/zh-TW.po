@@ -96,7 +96,7 @@ msgid "Accept"
 msgstr "接受"
 
 #: src/components/PositionCard/index.tsx:245
-#: src/pages/exchange/pool/index.tsx:154
+#: src/pages/exchange/pool/index.tsx:153
 msgid "Add"
 msgstr "添加"
 
@@ -174,7 +174,7 @@ msgstr "批準Kashi"
 
 #: src/pages/exchange/add/[[...tokens]].tsx:479
 #: src/pages/exchange/add/[[...tokens]].tsx:496
-#: src/pages/exchange/swap/[[...tokens]].tsx:606
+#: src/pages/exchange/swap/[[...tokens]].tsx:608
 msgid "Approve {0}"
 msgstr "批准{0}"
 
@@ -216,7 +216,7 @@ msgstr "可用的"
 msgid "Balance"
 msgstr "餘額"
 
-#: src/components/CurrencyInputPanel/index.tsx:166
+#: src/components/CurrencyInputPanel/index.tsx:169
 msgid "Balance:"
 msgstr ""
 
@@ -701,7 +701,7 @@ msgid "If you want to supply to a market that is not listed yet, you can use thi
 msgstr ""
 
 #: src/modals/SearchModal/ImportToken.tsx:88
-#: src/pages/exchange/pool/index.tsx:157
+#: src/pages/exchange/pool/index.tsx:156
 msgid "Import"
 msgstr ""
 
@@ -736,7 +736,7 @@ msgstr "余額不足"
 #~ msgid "Insufficient WETH balance"
 #~ msgstr "WETH餘額不足"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:591
+#: src/pages/exchange/swap/[[...tokens]].tsx:593
 msgid "Insufficient liquidity for this trade"
 msgstr "該交易的流動性不足"
 
@@ -842,7 +842,7 @@ msgstr "流動性"
 msgid "Liquidity Provider Fee"
 msgstr "LP獎勵"
 
-#: src/pages/exchange/pool/index.tsx:110
+#: src/pages/exchange/pool/index.tsx:109
 msgid "Liquidity Provider Rewards"
 msgstr "LP獎勵"
 
@@ -856,7 +856,7 @@ msgstr "LP獎勵"
 #~ msgid "Liquidity providers earn a 0.25% fee on all trades proportional to their share ofthe pool. Fees are added to the pool, accrue in real time and can be claimed bywithdrawing your liquidity"
 #~ msgstr "流動性提供者(LP)可按比例收取流動性池中交易額的0.25%作為手續費收入。手續費收入將被直接實時添加至流動性池，在撤出流動性時可收取。"
 
-#: src/pages/exchange/pool/index.tsx:111
+#: src/pages/exchange/pool/index.tsx:110
 msgid ""
 "Liquidity providers earn a 0.3% fee on all trades proportional to their share of\n"
 "the pool. Fees are added to the pool, accrue in real time and can be claimed by\n"
@@ -871,7 +871,7 @@ msgstr "清單"
 #: src/components/TransactionList.tsx:40
 #: src/pages/exchange/find/index.tsx:176
 #: src/pages/exchange/migrate/index.tsx:215
-#: src/pages/exchange/pool/index.tsx:123
+#: src/pages/exchange/pool/index.tsx:122
 #: src/pages/user/index.tsx:93
 msgid "Loading"
 msgstr "載入中"
@@ -951,7 +951,7 @@ msgstr "市場"
 msgid "Matic Bridge"
 msgstr ""
 
-#: src/components/CurrencyInputPanel/index.tsx:149
+#: src/components/CurrencyInputPanel/index.tsx:152
 #: src/features/meowshi/CurrencyInputPanel.tsx:90
 msgid "Max"
 msgstr "最大數量"
@@ -972,7 +972,7 @@ msgstr ""
 #: src/components/Header/index.tsx:65
 #: src/components/Header/index.tsx:299
 #: src/pages/exchange/migrate/index.tsx:244
-#: src/pages/exchange/pool/index.tsx:162
+#: src/pages/exchange/pool/index.tsx:161
 msgid "Migrate"
 msgstr "遷移"
 
@@ -1004,7 +1004,7 @@ msgstr "最少可獲得的數量"
 #~ msgid "Missed the Auction?"
 #~ msgstr "錯過了拍賣？"
 
-#: src/pages/exchange/pool/index.tsx:105
+#: src/pages/exchange/pool/index.tsx:104
 msgid "My Liquidity Positions"
 msgstr ""
 
@@ -1045,7 +1045,7 @@ msgstr "沒有發現流動性可以互換"
 #~ msgid "No liquidity positions found"
 #~ msgstr "沒有發現流動性"
 
-#: src/pages/exchange/pool/index.tsx:144
+#: src/pages/exchange/pool/index.tsx:143
 msgid "No liquidity was found."
 msgstr ""
 
@@ -1192,11 +1192,11 @@ msgstr "倉位"
 msgid "Price Impact"
 msgstr "價格影響"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:636
+#: src/pages/exchange/swap/[[...tokens]].tsx:638
 msgid "Price Impact High"
 msgstr "價格影響高"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:665
+#: src/pages/exchange/swap/[[...tokens]].tsx:667
 msgid "Price Impact Too High"
 msgstr "價格影響過高"
 
@@ -1225,7 +1225,7 @@ msgstr "删除"
 msgid "Remove Liquidity"
 msgstr "移除流動性"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:518
+#: src/pages/exchange/swap/[[...tokens]].tsx:520
 msgid "Remove recipient"
 msgstr ""
 
@@ -1311,7 +1311,7 @@ msgstr ""
 msgid "Select a collateral token"
 msgstr ""
 
-#: src/components/CurrencyInputPanel/index.tsx:121
+#: src/components/CurrencyInputPanel/index.tsx:124
 #: src/components/CurrencySelectPanel/index.tsx:95
 #: src/state/swap/hooks.ts:187
 msgid "Select a token"
@@ -1434,36 +1434,36 @@ msgstr "Sushi是開源協議的支持者。"
 #~ msgid "SushiBar: Make SUSHI work for you"
 #~ msgstr "SushiBar：讓SUSHI為您工作"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:428
+#: src/pages/exchange/swap/[[...tokens]].tsx:430
 msgid "SushiSwap"
 msgstr ""
 
 #: src/components/ExchangeHeader.tsx:49
 #: src/components/Header/index.tsx:48
 #: src/components/Header/index.tsx:282
-#: src/pages/exchange/swap/[[...tokens]].tsx:639
-#: src/pages/exchange/swap/[[...tokens]].tsx:668
+#: src/pages/exchange/swap/[[...tokens]].tsx:641
+#: src/pages/exchange/swap/[[...tokens]].tsx:670
 msgid "Swap"
 msgstr "代幣兌換"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:638
-#: src/pages/exchange/swap/[[...tokens]].tsx:667
+#: src/pages/exchange/swap/[[...tokens]].tsx:640
+#: src/pages/exchange/swap/[[...tokens]].tsx:669
 msgid "Swap Anyway"
 msgstr "仍要交換"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:469
+#: src/pages/exchange/swap/[[...tokens]].tsx:471
 msgid "Swap From (est.):"
 msgstr "交換自（估計）："
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:469
+#: src/pages/exchange/swap/[[...tokens]].tsx:471
 msgid "Swap From:"
 msgstr "交換自："
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:529
+#: src/pages/exchange/swap/[[...tokens]].tsx:531
 msgid "Swap To (est.):"
 msgstr "交換至（估算）："
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:529
+#: src/pages/exchange/swap/[[...tokens]].tsx:531
 msgid "Swap To:"
 msgstr "交換至："
 
@@ -1609,7 +1609,7 @@ msgstr "交易期限"
 #~ msgid "Transactions"
 #~ msgstr "交易"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:592
+#: src/pages/exchange/swap/[[...tokens]].tsx:594
 msgid "Try enabling multi-hop trades"
 msgstr "嘗試啟用多跳交易"
 
@@ -1635,11 +1635,11 @@ msgid "Unstaked"
 msgstr "解除質押"
 
 #: src/pages/exchange/add/[[...tokens]].tsx:453
-#: src/pages/exchange/swap/[[...tokens]].tsx:576
+#: src/pages/exchange/swap/[[...tokens]].tsx:578
 msgid "Unsupported Asset"
 msgstr "不支持的資產"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:586
+#: src/pages/exchange/swap/[[...tokens]].tsx:588
 msgid "Unwrap"
 msgstr "解開"
 
@@ -1753,7 +1753,7 @@ msgstr "提取"
 #~ msgid "Withdraw {assetSymbol}"
 #~ msgstr "提現{assetSymbol}"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:584
+#: src/pages/exchange/swap/[[...tokens]].tsx:586
 msgid "Wrap"
 msgstr "包裹"
 

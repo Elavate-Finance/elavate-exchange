@@ -1,4 +1,4 @@
-import { ChainId, Percent } from '@sushiswap/sdk'
+import { ChainId, Percent } from '../sushiswap/sdk'
 import React from 'react'
 import Gas from './Gas'
 import NavLink from './NavLink'

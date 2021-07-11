@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/sdk'
+import { ChainId } from '../../sushiswap/sdk'
 import MULTICALL_ABI from './abi.json'
 
 const MULTICALL_NETWORKS: { [chainId in ChainId]: string } = {
@@ -26,6 +26,7 @@ const MULTICALL_NETWORKS: { [chainId in ChainId]: string } = {
   [ChainId.OKEX]: '0x0769fd68dFb93167989C6f7254cd0D766Fb2841F',
   [ChainId.OKEX_TESTNET]: '0x0769fd68dFb93167989C6f7254cd0D766Fb2841F',
   [ChainId.CELO]: '0x26DC4e2f63bad22BCdF99087E40bd5B6c456e69d',
+  [ChainId.ELASTOS]: '',
 }
 
 export { MULTICALL_ABI, MULTICALL_NETWORKS }

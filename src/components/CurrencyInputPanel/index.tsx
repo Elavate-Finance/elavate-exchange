@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Pair, Percent, Token } from '@sushiswap/sdk'
+import { Currency, CurrencyAmount, Pair, Percent, Token } from '../../sushiswap/sdk'
 import React, { ReactNode, useCallback, useState } from 'react'
 import { classNames, formatCurrencyAmount } from '../../functions'
 
@@ -63,6 +63,9 @@ export default function CurrencyInputPanel({
   const [modalOpen, setModalOpen] = useState(false)
   const { account } = useActiveWeb3React()
   const selectedCurrencyBalance = useCurrencyBalance(account ?? undefined, currency ?? undefined)
+
+  // console.log("currency", currency)
+  // console.log(selectedCurrencyBalance)
 
   const handleDismissSearch = useCallback(() => {
     setModalOpen(false)

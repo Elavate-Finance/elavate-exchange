@@ -95,7 +95,7 @@ msgid "Accept"
 msgstr "동의"
 
 #: src/components/PositionCard/index.tsx:245
-#: src/pages/exchange/pool/index.tsx:154
+#: src/pages/exchange/pool/index.tsx:153
 msgid "Add"
 msgstr "추가"
 
@@ -173,7 +173,7 @@ msgstr "카시 허용"
 
 #: src/pages/exchange/add/[[...tokens]].tsx:479
 #: src/pages/exchange/add/[[...tokens]].tsx:496
-#: src/pages/exchange/swap/[[...tokens]].tsx:606
+#: src/pages/exchange/swap/[[...tokens]].tsx:608
 msgid "Approve {0}"
 msgstr "{0} 승인하기"
 
@@ -215,7 +215,7 @@ msgstr "유효"
 msgid "Balance"
 msgstr "잔액"
 
-#: src/components/CurrencyInputPanel/index.tsx:166
+#: src/components/CurrencyInputPanel/index.tsx:169
 msgid "Balance:"
 msgstr ""
 
@@ -714,7 +714,7 @@ msgid "If you want to supply to a market that is not listed yet, you can use thi
 msgstr ""
 
 #: src/modals/SearchModal/ImportToken.tsx:88
-#: src/pages/exchange/pool/index.tsx:157
+#: src/pages/exchange/pool/index.tsx:156
 msgid "Import"
 msgstr ""
 
@@ -749,7 +749,7 @@ msgstr "잔액 부족"
 #~ msgid "Insufficient WETH balance"
 #~ msgstr "WETH 잔액 부족"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:591
+#: src/pages/exchange/swap/[[...tokens]].tsx:593
 msgid "Insufficient liquidity for this trade"
 msgstr "이 거래를 위한 유동성 부족"
 
@@ -855,7 +855,7 @@ msgstr "유동성"
 msgid "Liquidity Provider Fee"
 msgstr "유동성 제공자 수수료"
 
-#: src/pages/exchange/pool/index.tsx:110
+#: src/pages/exchange/pool/index.tsx:109
 msgid "Liquidity Provider Rewards"
 msgstr "유동성 제공자 보상"
 
@@ -872,7 +872,7 @@ msgstr "유동성 제공자 보상"
 #~ msgid "Liquidity providers earn a 0.25% fee on all trades proportional to their share ofthe pool. Fees are added to the pool, accrue in real time and can be claimed bywithdrawing your liquidity"
 #~ msgstr "유동성 공급자들은 풀에 대한 지분에 따라 거래시 발생하는 0.25%의 수수료의 일부를 받게 됩니다. 수수료는 풀에 포함되며 실시간으로 발생하고 유동성 출금 시에 받게 됩니다."
 
-#: src/pages/exchange/pool/index.tsx:111
+#: src/pages/exchange/pool/index.tsx:110
 msgid ""
 "Liquidity providers earn a 0.3% fee on all trades proportional to their share of\n"
 "the pool. Fees are added to the pool, accrue in real time and can be claimed by\n"
@@ -887,7 +887,7 @@ msgstr "리스트"
 #: src/components/TransactionList.tsx:40
 #: src/pages/exchange/find/index.tsx:176
 #: src/pages/exchange/migrate/index.tsx:215
-#: src/pages/exchange/pool/index.tsx:123
+#: src/pages/exchange/pool/index.tsx:122
 #: src/pages/user/index.tsx:93
 msgid "Loading"
 msgstr "로드 중"
@@ -967,7 +967,7 @@ msgstr "마켓"
 msgid "Matic Bridge"
 msgstr ""
 
-#: src/components/CurrencyInputPanel/index.tsx:149
+#: src/components/CurrencyInputPanel/index.tsx:152
 #: src/features/meowshi/CurrencyInputPanel.tsx:90
 msgid "Max"
 msgstr "최대"
@@ -988,7 +988,7 @@ msgstr ""
 #: src/components/Header/index.tsx:65
 #: src/components/Header/index.tsx:299
 #: src/pages/exchange/migrate/index.tsx:244
-#: src/pages/exchange/pool/index.tsx:162
+#: src/pages/exchange/pool/index.tsx:161
 msgid "Migrate"
 msgstr "마이그레이션"
 
@@ -1021,7 +1021,7 @@ msgstr "최소 수령"
 #~ msgid "Missed the Auction?"
 #~ msgstr ""
 
-#: src/pages/exchange/pool/index.tsx:105
+#: src/pages/exchange/pool/index.tsx:104
 msgid "My Liquidity Positions"
 msgstr ""
 
@@ -1062,7 +1062,7 @@ msgstr "스왑할 유동성 없음"
 #~ msgid "No liquidity positions found"
 #~ msgstr "유동성 포지션 없음"
 
-#: src/pages/exchange/pool/index.tsx:144
+#: src/pages/exchange/pool/index.tsx:143
 msgid "No liquidity was found."
 msgstr ""
 
@@ -1210,11 +1210,11 @@ msgstr "포지션"
 msgid "Price Impact"
 msgstr "가격 영향"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:636
+#: src/pages/exchange/swap/[[...tokens]].tsx:638
 msgid "Price Impact High"
 msgstr "가격 영향 높음"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:665
+#: src/pages/exchange/swap/[[...tokens]].tsx:667
 msgid "Price Impact Too High"
 msgstr "가격 영향이 너무 높음"
 
@@ -1243,7 +1243,7 @@ msgstr "제거"
 msgid "Remove Liquidity"
 msgstr "유동성 제거"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:518
+#: src/pages/exchange/swap/[[...tokens]].tsx:520
 msgid "Remove recipient"
 msgstr ""
 
@@ -1329,7 +1329,7 @@ msgstr ""
 msgid "Select a collateral token"
 msgstr ""
 
-#: src/components/CurrencyInputPanel/index.tsx:121
+#: src/components/CurrencyInputPanel/index.tsx:124
 #: src/components/CurrencySelectPanel/index.tsx:95
 #: src/state/swap/hooks.ts:187
 msgid "Select a token"
@@ -1452,36 +1452,36 @@ msgstr "스시는 오픈 소스를 지지합니다."
 #~ msgid "SushiBar: Make SUSHI work for you"
 #~ msgstr "SushiBar: 자면서도 SUSHI를 벌 수 있는 방법"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:428
+#: src/pages/exchange/swap/[[...tokens]].tsx:430
 msgid "SushiSwap"
 msgstr ""
 
 #: src/components/ExchangeHeader.tsx:49
 #: src/components/Header/index.tsx:48
 #: src/components/Header/index.tsx:282
-#: src/pages/exchange/swap/[[...tokens]].tsx:639
-#: src/pages/exchange/swap/[[...tokens]].tsx:668
+#: src/pages/exchange/swap/[[...tokens]].tsx:641
+#: src/pages/exchange/swap/[[...tokens]].tsx:670
 msgid "Swap"
 msgstr "스왑"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:638
-#: src/pages/exchange/swap/[[...tokens]].tsx:667
+#: src/pages/exchange/swap/[[...tokens]].tsx:640
+#: src/pages/exchange/swap/[[...tokens]].tsx:669
 msgid "Swap Anyway"
 msgstr "바로 스왑"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:469
+#: src/pages/exchange/swap/[[...tokens]].tsx:471
 msgid "Swap From (est.):"
 msgstr "다음에서 스왑(예상):"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:469
+#: src/pages/exchange/swap/[[...tokens]].tsx:471
 msgid "Swap From:"
 msgstr "다음에서 스왑:"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:529
+#: src/pages/exchange/swap/[[...tokens]].tsx:531
 msgid "Swap To (est.):"
 msgstr "다음으로 스왑(예상):"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:529
+#: src/pages/exchange/swap/[[...tokens]].tsx:531
 msgid "Swap To:"
 msgstr "다음으로 스왑:"
 
@@ -1628,7 +1628,7 @@ msgstr "거래 제한시간"
 #~ msgid "Transactions"
 #~ msgstr "거래"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:592
+#: src/pages/exchange/swap/[[...tokens]].tsx:594
 msgid "Try enabling multi-hop trades"
 msgstr "멀티홉 거래 활성화하기"
 
@@ -1654,11 +1654,11 @@ msgid "Unstaked"
 msgstr "지분 없음"
 
 #: src/pages/exchange/add/[[...tokens]].tsx:453
-#: src/pages/exchange/swap/[[...tokens]].tsx:576
+#: src/pages/exchange/swap/[[...tokens]].tsx:578
 msgid "Unsupported Asset"
 msgstr "지원되지 않는 자산"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:586
+#: src/pages/exchange/swap/[[...tokens]].tsx:588
 msgid "Unwrap"
 msgstr "언랩"
 
@@ -1772,7 +1772,7 @@ msgstr "인출"
 #~ msgid "Withdraw {assetSymbol}"
 #~ msgstr "{assetSymbol} 인출하기"
 
-#: src/pages/exchange/swap/[[...tokens]].tsx:584
+#: src/pages/exchange/swap/[[...tokens]].tsx:586
 msgid "Wrap"
 msgstr "랩"
 

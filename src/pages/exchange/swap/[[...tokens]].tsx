@@ -124,6 +124,8 @@ export default function Swap() {
     allowedSlippage,
   } = useDerivedSwapInfo(doArcher)
 
+  // console.log("v2Trade", v2Trade)
+
   const {
     wrapType,
     execute: onWrap,

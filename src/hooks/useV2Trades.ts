@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Pair, Trade, TradeType } from '@sushiswap/sdk'
+import { Currency, CurrencyAmount, Pair, Trade, TradeType } from '../sushiswap/sdk'
 import { PairState, useV2Pairs } from './useV2Pairs'
 
 import { BETTER_TRADE_LESS_HOPS_THRESHOLD } from '../constants'
@@ -10,6 +10,8 @@ function useAllCommonPairs(currencyA?: Currency, currencyB?: Currency): Pair[] {
   const allCurrencyCombinations = useAllCurrencyCombinations(currencyA, currencyB)
 
   const allPairs = useV2Pairs(allCurrencyCombinations)
+
+  // console.log('allPairs', allPairs)
 
   // only pass along valid pairs, non-duplicated pairs
   return useMemo(
@@ -38,7 +40,9 @@ export function useV2TradeExactIn(
   currencyOut?: Currency,
   { maxHops = MAX_HOPS } = {}
 ): Trade<Currency, Currency, TradeType.EXACT_INPUT> | null {
-  const allowedPairs = useAllCommonPairs(currencyAmountIn?.currency, currencyOut)
+  const allowedPairs = useAllCommonPairs(currencyAmountIn?.currency, currencyOut) // problem is here
+
+  // console.log("allowedPairs", allowedPairs)
 
   return useMemo(() => {
     if (currencyAmountIn && currencyOut && allowedPairs.length > 0) {

@@ -1,4 +1,4 @@
-import { ChainId, CurrencyAmount, Ether } from '@sushiswap/sdk'
+import { ChainId, CurrencyAmount, Ether } from '../../sushiswap/sdk'
 import { CheckCircle, Triangle, X } from 'react-feather'
 import React, { useCallback, useMemo } from 'react'
 

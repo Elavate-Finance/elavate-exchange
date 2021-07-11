@@ -38,8 +38,6 @@ const RPC = {
   20: 'https://api.elastos.io/eth', // ChainId.ELASTOS ?? not working
 }
 
-console.log(RPC)
-console.log(NetworkConnector)
 export const network = new NetworkConnector({
   defaultChainId: 1,
   urls: RPC,

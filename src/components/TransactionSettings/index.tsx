@@ -4,7 +4,7 @@ import { useSetUserSlippageTolerance, useUserSlippageTolerance, useUserTransacti
 
 import { AutoColumn } from '../Column'
 import { DEFAULT_DEADLINE_FROM_NOW } from '../../constants'
-import { Percent } from '@sushiswap/sdk'
+import { Percent } from '../../sushiswap/sdk'
 import QuestionHelper from '../QuestionHelper'
 import Typography from '../Typography'
 import { classNames } from '../../functions'
