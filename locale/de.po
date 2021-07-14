@@ -132,8 +132,8 @@ msgstr ""
 msgid "Add {0} to MetaMask"
 msgstr ""
 
-#: src/pages/exchange/add/[[...tokens]].tsx:195
-#: src/pages/exchange/add/[[...tokens]].tsx:195
+#: src/pages/exchange/add/[[...tokens]].tsx:206
+#: src/pages/exchange/add/[[...tokens]].tsx:206
 msgid "Add {0} {1} and {2} {3}"
 msgstr ""
 
@@ -171,8 +171,8 @@ msgstr "Genehmigen"
 msgid "Approve Kashi"
 msgstr "Genehmige Kashi"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:479
-#: src/pages/exchange/add/[[...tokens]].tsx:496
+#: src/pages/exchange/add/[[...tokens]].tsx:490
+#: src/pages/exchange/add/[[...tokens]].tsx:507
 #: src/pages/exchange/swap/[[...tokens]].tsx:608
 msgid "Approve {0}"
 msgstr "Genehmige {0}"
@@ -190,8 +190,8 @@ msgstr "Genehmigt"
 msgid "Approving"
 msgstr "Genehmigen"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:477
-#: src/pages/exchange/add/[[...tokens]].tsx:494
+#: src/pages/exchange/add/[[...tokens]].tsx:488
+#: src/pages/exchange/add/[[...tokens]].tsx:505
 msgid "Approving {0}"
 msgstr "Genehmigen von {0}"
 
@@ -297,7 +297,7 @@ msgstr "Durch die Kreditaufnahme können Sie sich Liquidität verschaffen, ohne 
 msgid "Buy"
 msgstr ""
 
-#: src/pages/exchange/add/[[...tokens]].tsx:362
+#: src/pages/exchange/add/[[...tokens]].tsx:373
 msgid ""
 "By adding liquidity you'll earn 0.25% of all trades on this pair\n"
 "proportional to your share of the pool. Fees are added to the pool, accrue in real time and can be\n"
@@ -380,7 +380,7 @@ msgstr "Gemeinschaftliche Genehmigung"
 msgid "Confirm"
 msgstr "Bestätigen"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:513
+#: src/pages/exchange/add/[[...tokens]].tsx:524
 msgid "Confirm Adding Liquidity"
 msgstr "Hinzufügen von Liquidität bestätigen"
 
@@ -539,7 +539,7 @@ msgstr "Eingeben"
 msgid "Enter Amount"
 msgstr "Menge eingeben"
 
-#: src/state/swap/hooks.ts:192
+#: src/state/swap/hooks.ts:201
 msgid "Enter a recipient"
 msgstr "Geben Sie einen Empfänger ein"
 
@@ -549,7 +549,7 @@ msgstr "Geben Sie einen gültigen Slippage-Prozentsatz ein"
 
 #: src/state/burn/hooks.ts:138
 #: src/state/mint/hooks.ts:202
-#: src/state/swap/hooks.ts:183
+#: src/state/swap/hooks.ts:192
 msgid "Enter an amount"
 msgstr "Geben Sie einen Betrag ein"
 
@@ -765,7 +765,7 @@ msgstr "Unzureichende Liquidität für diesen Trade"
 
 #: src/state/mint/hooks.ts:208
 #: src/state/mint/hooks.ts:212
-#: src/state/swap/hooks.ts:209
+#: src/state/swap/hooks.ts:218
 msgid "Insufficient {0} balance"
 msgstr "Zu wenig {0} Guthaben"
 
@@ -778,7 +778,7 @@ msgstr "Schnittstelleneinstellungen"
 msgid "Invalid pair"
 msgstr "Ungültiges Paar"
 
-#: src/state/swap/hooks.ts:199
+#: src/state/swap/hooks.ts:208
 msgid "Invalid recipient"
 msgstr "Ungültiger Empfänger"
 
@@ -1123,7 +1123,7 @@ msgstr "Hauptmenü öffnen"
 msgid "Oracle"
 msgstr "Orakel"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:242
+#: src/pages/exchange/add/[[...tokens]].tsx:253
 msgid ""
 "Output is estimated. If the price changes by more than {0}% your transaction\n"
 "will revert."
@@ -1187,7 +1187,7 @@ msgstr "Pool gefunden!"
 #~ msgid "Pool Rewards"
 #~ msgstr "Pool-Belohnungen"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:239
+#: src/pages/exchange/add/[[...tokens]].tsx:250
 msgid "Pool Tokens"
 msgstr "Pool-Token"
 
@@ -1341,7 +1341,7 @@ msgstr ""
 
 #: src/components/CurrencyInputPanel/index.tsx:124
 #: src/components/CurrencySelectPanel/index.tsx:95
-#: src/state/swap/hooks.ts:187
+#: src/state/swap/hooks.ts:196
 msgid "Select a token"
 msgstr "Wählen Sie einen Token aus"
 
@@ -1446,7 +1446,7 @@ msgstr "Staking APR"
 #~ msgid "Supply APR"
 #~ msgstr "APR liefern"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:265
+#: src/pages/exchange/add/[[...tokens]].tsx:276
 msgid "Supplying {0} {1} and {2} {3}"
 msgstr "Lieferung von {0} {1} und {2} {3}"
 
@@ -1562,7 +1562,7 @@ msgstr "Diese Transaktion wird nicht durchgeführt, entweder wegen Preisbewegung
 msgid "Tip to encourage miners to select this transaction."
 msgstr ""
 
-#: src/pages/exchange/add/[[...tokens]].tsx:360
+#: src/pages/exchange/add/[[...tokens]].tsx:371
 #: src/pages/exchange/find/index.tsx:95
 msgid "Tip:"
 msgstr ""
@@ -1667,7 +1667,7 @@ msgstr "Unstake"
 msgid "Unstaked"
 msgstr "Unstaked"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:453
+#: src/pages/exchange/add/[[...tokens]].tsx:464
 #: src/pages/exchange/swap/[[...tokens]].tsx:578
 msgid "Unsupported Asset"
 msgstr "Nicht unterstütztes Asset"
@@ -1720,7 +1720,7 @@ msgstr ""
 msgid "Vietnamese"
 msgstr ""
 
-#: src/pages/exchange/add/[[...tokens]].tsx:327
+#: src/pages/exchange/add/[[...tokens]].tsx:338
 #: src/pages/exchange/remove/[[...tokens]].tsx:721
 msgid "View Liquidity Positions"
 msgstr ""
@@ -1774,7 +1774,7 @@ msgstr ""
 #~ msgid "Welcome to Sushi on Polygon (Matic)"
 #~ msgstr "Willkommen bei Sushi on Polygon (Matic)"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:356
+#: src/pages/exchange/add/[[...tokens]].tsx:367
 msgid "When creating a pair you are the first liquidity provider. The ratio of tokens you add will set the price of this pool. Once you are happy with the rate, click supply to review"
 msgstr "Beim Erstellen eines Paares sind Sie der erste Liquiditätsanbieter. Das Verhältnis der von Ihnen hinzugefügten Token bestimmt den Preis für diesen Pool. Wenn Sie mit dem Kurs zufrieden sind, klicken Sie auf „Bereitstellen“, um ihn zu überprüfen."
 
@@ -1814,7 +1814,7 @@ msgstr "Der gestrige APR"
 #~ msgid "Yield Instruments"
 #~ msgstr "Ertragsinstrumente"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:388
+#: src/pages/exchange/add/[[...tokens]].tsx:399
 msgid "You are creating a pool"
 msgstr "Sie erstellen einen Pool"
 
@@ -1830,7 +1830,7 @@ msgstr "Sie haben noch keine Liquidität in diesem Pool"
 msgid "You need to first approve LP tokens and then migrate it"
 msgstr "Sie müssen zuerst LP-Token genehmigen und dann migrieren"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:388
+#: src/pages/exchange/add/[[...tokens]].tsx:399
 #: src/pages/exchange/remove/[[...tokens]].tsx:749
 msgid "You will receive"
 msgstr "Sie werden erhalten"

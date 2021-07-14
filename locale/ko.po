@@ -132,8 +132,8 @@ msgstr ""
 msgid "Add {0} to MetaMask"
 msgstr ""
 
-#: src/pages/exchange/add/[[...tokens]].tsx:195
-#: src/pages/exchange/add/[[...tokens]].tsx:195
+#: src/pages/exchange/add/[[...tokens]].tsx:206
+#: src/pages/exchange/add/[[...tokens]].tsx:206
 msgid "Add {0} {1} and {2} {3}"
 msgstr ""
 
@@ -171,8 +171,8 @@ msgstr "승인"
 msgid "Approve Kashi"
 msgstr "카시 허용"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:479
-#: src/pages/exchange/add/[[...tokens]].tsx:496
+#: src/pages/exchange/add/[[...tokens]].tsx:490
+#: src/pages/exchange/add/[[...tokens]].tsx:507
 #: src/pages/exchange/swap/[[...tokens]].tsx:608
 msgid "Approve {0}"
 msgstr "{0} 승인하기"
@@ -190,8 +190,8 @@ msgstr "승인됨"
 msgid "Approving"
 msgstr "승인"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:477
-#: src/pages/exchange/add/[[...tokens]].tsx:494
+#: src/pages/exchange/add/[[...tokens]].tsx:488
+#: src/pages/exchange/add/[[...tokens]].tsx:505
 msgid "Approving {0}"
 msgstr "{0} 승인"
 
@@ -297,7 +297,7 @@ msgstr "대출을 통해 자산 매도 없이 유동성을 얻을 수 있습니�
 msgid "Buy"
 msgstr ""
 
-#: src/pages/exchange/add/[[...tokens]].tsx:362
+#: src/pages/exchange/add/[[...tokens]].tsx:373
 msgid ""
 "By adding liquidity you'll earn 0.25% of all trades on this pair\n"
 "proportional to your share of the pool. Fees are added to the pool, accrue in real time and can be\n"
@@ -380,7 +380,7 @@ msgstr "커뮤니티 승인"
 msgid "Confirm"
 msgstr "확인"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:513
+#: src/pages/exchange/add/[[...tokens]].tsx:524
 msgid "Confirm Adding Liquidity"
 msgstr "유동성 추가 확인"
 
@@ -539,7 +539,7 @@ msgstr "입력"
 msgid "Enter Amount"
 msgstr "금액 입력"
 
-#: src/state/swap/hooks.ts:192
+#: src/state/swap/hooks.ts:201
 msgid "Enter a recipient"
 msgstr "수신자 입력"
 
@@ -549,7 +549,7 @@ msgstr "유효한 슬리피지 비율 입력"
 
 #: src/state/burn/hooks.ts:138
 #: src/state/mint/hooks.ts:202
-#: src/state/swap/hooks.ts:183
+#: src/state/swap/hooks.ts:192
 msgid "Enter an amount"
 msgstr "금액 입력"
 
@@ -755,7 +755,7 @@ msgstr "이 거래를 위한 유동성 부족"
 
 #: src/state/mint/hooks.ts:208
 #: src/state/mint/hooks.ts:212
-#: src/state/swap/hooks.ts:209
+#: src/state/swap/hooks.ts:218
 msgid "Insufficient {0} balance"
 msgstr "{0} 잔액 부족"
 
@@ -768,7 +768,7 @@ msgstr "인터페이스 설정"
 msgid "Invalid pair"
 msgstr "잘못된 쌍"
 
-#: src/state/swap/hooks.ts:199
+#: src/state/swap/hooks.ts:208
 msgid "Invalid recipient"
 msgstr "잘못된 수신자"
 
@@ -1113,7 +1113,7 @@ msgstr "메인 메뉴 열기"
 msgid "Oracle"
 msgstr "오라클"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:242
+#: src/pages/exchange/add/[[...tokens]].tsx:253
 msgid ""
 "Output is estimated. If the price changes by more than {0}% your transaction\n"
 "will revert."
@@ -1177,7 +1177,7 @@ msgstr "풀을 찾았습니다!"
 #~ msgid "Pool Rewards"
 #~ msgstr "풀 보상"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:239
+#: src/pages/exchange/add/[[...tokens]].tsx:250
 msgid "Pool Tokens"
 msgstr "풀 토큰"
 
@@ -1331,7 +1331,7 @@ msgstr ""
 
 #: src/components/CurrencyInputPanel/index.tsx:124
 #: src/components/CurrencySelectPanel/index.tsx:95
-#: src/state/swap/hooks.ts:187
+#: src/state/swap/hooks.ts:196
 msgid "Select a token"
 msgstr "토큰 선택"
 
@@ -1432,7 +1432,7 @@ msgstr "APR 스테이킹"
 #~ msgid "Supply APR"
 #~ msgstr "공급 APR"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:265
+#: src/pages/exchange/add/[[...tokens]].tsx:276
 msgid "Supplying {0} {1} and {2} {3}"
 msgstr "{0} {1} 및 {2} {3} 공급 중"
 
@@ -1548,7 +1548,7 @@ msgstr "이 거래는 가격 변동이나 이체 수수료 문제로 불가능�
 msgid "Tip to encourage miners to select this transaction."
 msgstr ""
 
-#: src/pages/exchange/add/[[...tokens]].tsx:360
+#: src/pages/exchange/add/[[...tokens]].tsx:371
 #: src/pages/exchange/find/index.tsx:95
 msgid "Tip:"
 msgstr ""
@@ -1653,7 +1653,7 @@ msgstr "언스테이크"
 msgid "Unstaked"
 msgstr "지분 없음"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:453
+#: src/pages/exchange/add/[[...tokens]].tsx:464
 #: src/pages/exchange/swap/[[...tokens]].tsx:578
 msgid "Unsupported Asset"
 msgstr "지원되지 않는 자산"
@@ -1706,7 +1706,7 @@ msgstr ""
 msgid "Vietnamese"
 msgstr ""
 
-#: src/pages/exchange/add/[[...tokens]].tsx:327
+#: src/pages/exchange/add/[[...tokens]].tsx:338
 #: src/pages/exchange/remove/[[...tokens]].tsx:721
 msgid "View Liquidity Positions"
 msgstr ""
@@ -1760,7 +1760,7 @@ msgstr ""
 #~ msgid "Welcome to Sushi on Polygon (Matic)"
 #~ msgstr "Polygon(Matic)의 Sushi에 오신 것을 환영합니다."
 
-#: src/pages/exchange/add/[[...tokens]].tsx:356
+#: src/pages/exchange/add/[[...tokens]].tsx:367
 msgid "When creating a pair you are the first liquidity provider. The ratio of tokens you add will set the price of this pool. Once you are happy with the rate, click supply to review"
 msgstr "쌍을 만들 때 귀하는 최초의 유동성 공급자입니다. 추가하는 토큰의 비율이이 풀의 가격을 설정합니다. 요금에 만족하면 공급을 클릭하여 검토하세요."
 
@@ -1800,7 +1800,7 @@ msgstr "어제의 APR"
 #~ msgid "Yield Instruments"
 #~ msgstr "수익 도구"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:388
+#: src/pages/exchange/add/[[...tokens]].tsx:399
 msgid "You are creating a pool"
 msgstr "풀 생성 중"
 
@@ -1816,7 +1816,7 @@ msgstr "아직 이 풀에 유동성이 없습니다"
 msgid "You need to first approve LP tokens and then migrate it"
 msgstr "먼저 LP 토큰을 승인 한 다음 마이그레이션해야 합니다"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:388
+#: src/pages/exchange/add/[[...tokens]].tsx:399
 #: src/pages/exchange/remove/[[...tokens]].tsx:749
 msgid "You will receive"
 msgstr "예상 수령"

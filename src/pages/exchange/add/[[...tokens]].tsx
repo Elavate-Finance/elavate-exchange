@@ -139,6 +139,7 @@ export default function Add() {
     if (!chainId || !library || !account || !routerContract) return
 
     const { [Field.CURRENCY_A]: parsedAmountA, [Field.CURRENCY_B]: parsedAmountB } = parsedAmounts
+
     if (!parsedAmountA || !parsedAmountB || !currencyA || !currencyB || !deadline) {
       return
     }
@@ -165,6 +166,10 @@ export default function Add() {
         deadline.toHexString(),
       ]
       value = BigNumber.from((tokenBIsETH ? parsedAmountB : parsedAmountA).quotient.toString())
+      // console.log('estimate', estimate)
+      // console.log('method', method)
+      // console.log('args', args)
+      // console.log('value', value.toString())
     } else {
       estimate = routerContract.estimateGas.addLiquidity
       method = routerContract.addLiquidity
@@ -182,6 +187,13 @@ export default function Add() {
     }
 
     setAttemptingTxn(true)
+
+    // console.log('attempting tx')
+
+    // estimate gas seems to work on tokswap
+    // does not work here even using tokswap contract address
+    // so problem must be something to do with this app?
+
     await estimate(...args, value ? { value } : {})
       .then((estimatedGasLimit) =>
         method(...args, {
@@ -189,7 +201,6 @@ export default function Add() {
           gasLimit: calculateGasMargin(estimatedGasLimit),
         }).then((response) => {
           setAttemptingTxn(false)
-
           addTransaction(response, {
             summary: i18n._(
               t`Add ${parsedAmounts[Field.CURRENCY_A]?.toSignificant(3)} ${

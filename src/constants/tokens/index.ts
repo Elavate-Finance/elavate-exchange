@@ -3,7 +3,7 @@ import { ChainId, Ether, SUSHI_ADDRESS, Token, WETH9, WNATIVE } from '../../sush
 import { SupportedChainId } from '../chains'
 
 export const ELASTOS: { [key: string]: Token } = {
-  ELP: new Token(20, '0x677d40ccc1c1fc3176e21844a6c041dbd106e6cd', 8, 'ELP', 'Elaphant'),
+  // ELP: new Token(20, '0x677D40cCC1c1fC3176E21844a6c041dBD106e6CD', 8, 'ELP', 'Elaphant'),
 }
 
 export const CELO: { [key: string]: Token } = {

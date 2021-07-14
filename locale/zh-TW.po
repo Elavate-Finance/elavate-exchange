@@ -133,8 +133,8 @@ msgstr ""
 msgid "Add {0} to MetaMask"
 msgstr ""
 
-#: src/pages/exchange/add/[[...tokens]].tsx:195
-#: src/pages/exchange/add/[[...tokens]].tsx:195
+#: src/pages/exchange/add/[[...tokens]].tsx:206
+#: src/pages/exchange/add/[[...tokens]].tsx:206
 msgid "Add {0} {1} and {2} {3}"
 msgstr ""
 
@@ -172,8 +172,8 @@ msgstr "批准"
 msgid "Approve Kashi"
 msgstr "批準Kashi"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:479
-#: src/pages/exchange/add/[[...tokens]].tsx:496
+#: src/pages/exchange/add/[[...tokens]].tsx:490
+#: src/pages/exchange/add/[[...tokens]].tsx:507
 #: src/pages/exchange/swap/[[...tokens]].tsx:608
 msgid "Approve {0}"
 msgstr "批准{0}"
@@ -191,8 +191,8 @@ msgstr "已批準"
 msgid "Approving"
 msgstr "批準中"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:477
-#: src/pages/exchange/add/[[...tokens]].tsx:494
+#: src/pages/exchange/add/[[...tokens]].tsx:488
+#: src/pages/exchange/add/[[...tokens]].tsx:505
 msgid "Approving {0}"
 msgstr "批准{0}"
 
@@ -298,7 +298,7 @@ msgstr "借款讓您在不出售資產的情況下獲得流動性。您的借款
 msgid "Buy"
 msgstr ""
 
-#: src/pages/exchange/add/[[...tokens]].tsx:362
+#: src/pages/exchange/add/[[...tokens]].tsx:373
 msgid ""
 "By adding liquidity you'll earn 0.25% of all trades on this pair\n"
 "proportional to your share of the pool. Fees are added to the pool, accrue in real time and can be\n"
@@ -376,7 +376,7 @@ msgstr "社區批準"
 msgid "Confirm"
 msgstr "確認"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:513
+#: src/pages/exchange/add/[[...tokens]].tsx:524
 msgid "Confirm Adding Liquidity"
 msgstr "確認添加流動性"
 
@@ -535,7 +535,7 @@ msgstr "進入"
 msgid "Enter Amount"
 msgstr "輸入金額"
 
-#: src/state/swap/hooks.ts:192
+#: src/state/swap/hooks.ts:201
 msgid "Enter a recipient"
 msgstr "輸入收件人"
 
@@ -545,7 +545,7 @@ msgstr "輸入有效的滑點百分比"
 
 #: src/state/burn/hooks.ts:138
 #: src/state/mint/hooks.ts:202
-#: src/state/swap/hooks.ts:183
+#: src/state/swap/hooks.ts:192
 msgid "Enter an amount"
 msgstr "輸入金額"
 
@@ -742,7 +742,7 @@ msgstr "該交易的流動性不足"
 
 #: src/state/mint/hooks.ts:208
 #: src/state/mint/hooks.ts:212
-#: src/state/swap/hooks.ts:209
+#: src/state/swap/hooks.ts:218
 msgid "Insufficient {0} balance"
 msgstr "代幣{0}餘額不足"
 
@@ -755,7 +755,7 @@ msgstr "交互設置"
 msgid "Invalid pair"
 msgstr "無效的代幣對"
 
-#: src/state/swap/hooks.ts:199
+#: src/state/swap/hooks.ts:208
 msgid "Invalid recipient"
 msgstr "无效收件人"
 
@@ -1096,7 +1096,7 @@ msgstr "打開主菜單"
 msgid "Oracle"
 msgstr "預言機"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:242
+#: src/pages/exchange/add/[[...tokens]].tsx:253
 msgid ""
 "Output is estimated. If the price changes by more than {0}% your transaction\n"
 "will revert."
@@ -1160,7 +1160,7 @@ msgstr "找到池！"
 #~ msgid "Pool Rewards"
 #~ msgstr "流動性池獎勵"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:239
+#: src/pages/exchange/add/[[...tokens]].tsx:250
 msgid "Pool Tokens"
 msgstr "流動性池中的總代幣"
 
@@ -1313,7 +1313,7 @@ msgstr ""
 
 #: src/components/CurrencyInputPanel/index.tsx:124
 #: src/components/CurrencySelectPanel/index.tsx:95
-#: src/state/swap/hooks.ts:187
+#: src/state/swap/hooks.ts:196
 msgid "Select a token"
 msgstr "選擇代幣"
 
@@ -1414,7 +1414,7 @@ msgstr "質押APR"
 #~ msgid "Supply APR"
 #~ msgstr "存款APR"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:265
+#: src/pages/exchange/add/[[...tokens]].tsx:276
 msgid "Supplying {0} {1} and {2} {3}"
 msgstr "提供{0} {1}和{2} {3}"
 
@@ -1529,7 +1529,7 @@ msgstr "交易未成功，可能因為價格變動，也可能轉賬中產生的
 msgid "Tip to encourage miners to select this transaction."
 msgstr ""
 
-#: src/pages/exchange/add/[[...tokens]].tsx:360
+#: src/pages/exchange/add/[[...tokens]].tsx:371
 #: src/pages/exchange/find/index.tsx:95
 msgid "Tip:"
 msgstr ""
@@ -1634,7 +1634,7 @@ msgstr "解除抵押"
 msgid "Unstaked"
 msgstr "解除質押"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:453
+#: src/pages/exchange/add/[[...tokens]].tsx:464
 #: src/pages/exchange/swap/[[...tokens]].tsx:578
 msgid "Unsupported Asset"
 msgstr "不支持的資產"
@@ -1687,7 +1687,7 @@ msgstr ""
 msgid "Vietnamese"
 msgstr ""
 
-#: src/pages/exchange/add/[[...tokens]].tsx:327
+#: src/pages/exchange/add/[[...tokens]].tsx:338
 #: src/pages/exchange/remove/[[...tokens]].tsx:721
 msgid "View Liquidity Positions"
 msgstr ""
@@ -1741,7 +1741,7 @@ msgstr ""
 #~ msgid "Welcome to Sushi on Polygon (Matic)"
 #~ msgstr "歡迎來到Polygon（Matic）上的Sushi"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:356
+#: src/pages/exchange/add/[[...tokens]].tsx:367
 msgid "When creating a pair you are the first liquidity provider. The ratio of tokens you add will set the price of this pool. Once you are happy with the rate, click supply to review"
 msgstr "當創建一個交易對時，您是第一個流動性提供者。您添加的代幣比例將決定這個池子的價格。一旦您對該比率滿意，點擊供應進行查看"
 
@@ -1779,7 +1779,7 @@ msgstr "昨天的APR"
 #~ msgid "Yield Instruments"
 #~ msgstr "收益率工具"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:388
+#: src/pages/exchange/add/[[...tokens]].tsx:399
 msgid "You are creating a pool"
 msgstr "您正在創建一個池"
 
@@ -1795,7 +1795,7 @@ msgstr "您的這個池中還沒有流動性"
 msgid "You need to first approve LP tokens and then migrate it"
 msgstr "您需要首先批準LP代幣，然後遷移它"
 
-#: src/pages/exchange/add/[[...tokens]].tsx:388
+#: src/pages/exchange/add/[[...tokens]].tsx:399
 #: src/pages/exchange/remove/[[...tokens]].tsx:749
 msgid "You will receive"
 msgstr "您將收到"

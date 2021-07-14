@@ -113,7 +113,6 @@ const WRAPPED_NATIVE_ONLY = {
   20: [WNATIVE[20]],
 }
 
-console.log(WRAPPED_NATIVE_ONLY)
 // used to construct intermediary pairs for trading
 export const BASES_TO_CHECK_TRADES_AGAINST = {
   ...WRAPPED_NATIVE_ONLY,

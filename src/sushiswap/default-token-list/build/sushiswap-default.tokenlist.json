@@ -8,19 +8,8 @@
   },
   "tags": {},
   "logoURI": "https://raw.githubusercontent.com/sushiswap/art/master/sushi/logo-256x256.png",
-  "keywords": [
-    "sushiswap",
-    "default"
-  ],
+  "keywords": ["sushiswap", "default"],
   "tokens": [
-    {
-      "address": "0x677d40ccc1c1fc3176e21844a6c041dbd106e6cd",
-      "chainId": 20,
-      "name": "Elaphant",
-      "symbol": "ELP",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/sushiswap/icons/master/token/1inch.jpg"
-    },
     {
       "address": "0x71e1ef01428138e516a70ba227659936b40f0138",
       "chainId": 20,
@@ -28,6 +17,22 @@
       "symbol": "CREDA",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/sushiswap/icons/master/token/aave.jpg"
+    },
+    {
+      "address": "0xB9Ae03e3320235D3a8AE537f87FF8529b445B590",
+      "chainId": 20,
+      "name": "Filda",
+      "symbol": "FILDA",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/sushiswap/icons/master/token/comp.jpg"
+    },
+    {
+      "address": "0x677D40cCC1c1fC3176E21844a6c041dBD106e6CD",
+      "chainId": 20,
+      "name": "Elaphant",
+      "symbol": "ELP",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/sushiswap/icons/master/token/1inch.jpg"
     },
     {
       "address": "0x111111111117dC0aa78b770fA6A738034120C302",
