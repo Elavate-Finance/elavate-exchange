@@ -71,7 +71,7 @@ const MoonbeamLogo = 'https://raw.githubusercontent.com/sushiswap/icons/master/t
 const OKExLogo = 'https://raw.githubusercontent.com/sushiswap/icons/master/token/okt.jpg'
 const xDaiLogo = 'https://raw.githubusercontent.com/sushiswap/icons/master/token/dai.jpg'
 const CeloLogo = 'https://raw.githubusercontent.com/sushiswap/icons/master/token/celo.jpg'
-const ElastosLogo = 'https://raw.githubusercontent.com/sushiswap/icons/master/token/ftm.jpg'
+const ElastosLogo = 'https://raw.githubusercontent.com/elavate-finance/icons/master/token/ela.jpg'
 
 const logo: { readonly [chainId in ChainId]?: string } = {
   [ChainId.MAINNET]: EthereumLogo,
