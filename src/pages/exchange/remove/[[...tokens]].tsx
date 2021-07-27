@@ -238,6 +238,7 @@ export default function Remove() {
           signatureData.r,
           signatureData.s,
         ]
+        console.log('args', args)
       }
     } else {
       throw new Error('Attempting to confirm without approval or a signature. Please contact support.')
