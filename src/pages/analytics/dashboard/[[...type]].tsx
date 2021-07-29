@@ -29,7 +29,7 @@ export default function Dashboard(): JSX.Element {
   return (
     <>
       <Head>
-        <title>SushiSwap Liquidity Pair (SLP) Analytics | Sushi</title>
+        <title>SushiSwap Liquidity Pair (SLP) Analytics | Elavate</title>
         <meta name="description" content="SushiSwap Liquidity Pair (SLP) Analytics by Sushi" />
       </Head>
 

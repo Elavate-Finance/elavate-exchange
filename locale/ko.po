@@ -162,7 +162,7 @@ msgstr "애널리틱스"
 #: src/features/meowshi/MeowshiButton.tsx:124
 #: src/pages/bar/index.tsx:343
 #: src/pages/exchange/migrate/index.tsx:235
-#: src/pages/exchange/remove/[[...tokens]].tsx:845
+#: src/pages/exchange/remove/[[...tokens]].tsx:846
 #: src/pages/user/balances.tsx:212
 msgid "Approve"
 msgstr "승인"
@@ -178,14 +178,14 @@ msgid "Approve {0}"
 msgstr "{0} 승인하기"
 
 #: src/pages/exchange/migrate/index.tsx:233
-#: src/pages/exchange/remove/[[...tokens]].tsx:843
+#: src/pages/exchange/remove/[[...tokens]].tsx:844
 msgid "Approved"
 msgstr "승인됨"
 
 #: src/features/meowshi/MeowshiButton.tsx:117
 #: src/pages/bar/index.tsx:341
 #: src/pages/exchange/migrate/index.tsx:231
-#: src/pages/exchange/remove/[[...tokens]].tsx:841
+#: src/pages/exchange/remove/[[...tokens]].tsx:842
 #: src/pages/user/balances.tsx:212
 msgid "Approving"
 msgstr "승인"
@@ -376,7 +376,7 @@ msgstr "담보"
 msgid "Community Approval"
 msgstr "커뮤니티 승인"
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:649
+#: src/pages/exchange/remove/[[...tokens]].tsx:650
 msgid "Confirm"
 msgstr "확인"
 
@@ -397,7 +397,7 @@ msgid "Confirm Swap"
 msgstr "스왑 확인"
 
 #: src/pages/bar/index.tsx:368
-#: src/pages/exchange/remove/[[...tokens]].tsx:855
+#: src/pages/exchange/remove/[[...tokens]].tsx:856
 msgid "Confirm Withdrawal"
 msgstr "출금 확인"
 
@@ -1119,7 +1119,7 @@ msgid ""
 "will revert."
 msgstr ""
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:602
+#: src/pages/exchange/remove/[[...tokens]].tsx:603
 msgid "Output is estimated. If the price changes by more than {0}% your transaction will revert."
 msgstr "결과는 예상치입니다. 가격이 {0}% 이상 변동하면 거래가 취소됩니다."
 
@@ -1223,7 +1223,7 @@ msgid "Price Updated"
 msgstr "가격이 업데이트되었습니다"
 
 #: src/features/liquidity/ConfirmAddModalBottom.tsx:29
-#: src/pages/exchange/remove/[[...tokens]].tsx:617
+#: src/pages/exchange/remove/[[...tokens]].tsx:618
 msgid "Rates"
 msgstr "요금"
 
@@ -1251,12 +1251,12 @@ msgstr ""
 #~ msgid "Remove send"
 #~ msgstr "보내기 제거"
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:276
-#: src/pages/exchange/remove/[[...tokens]].tsx:276
+#: src/pages/exchange/remove/[[...tokens]].tsx:277
+#: src/pages/exchange/remove/[[...tokens]].tsx:277
 msgid "Remove {0} {1} and {2} {3}"
 msgstr ""
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:656
+#: src/pages/exchange/remove/[[...tokens]].tsx:657
 msgid "Removing {0} {1} and {2} {3}"
 msgstr "{0} {1} 및 {2} {3} 제거 중"
 
@@ -1707,7 +1707,7 @@ msgid "Vietnamese"
 msgstr ""
 
 #: src/pages/exchange/add/[[...tokens]].tsx:338
-#: src/pages/exchange/remove/[[...tokens]].tsx:721
+#: src/pages/exchange/remove/[[...tokens]].tsx:722
 msgid "View Liquidity Positions"
 msgstr ""
 
@@ -1817,7 +1817,7 @@ msgid "You need to first approve LP tokens and then migrate it"
 msgstr "먼저 LP 토큰을 승인 한 다음 마이그레이션해야 합니다"
 
 #: src/pages/exchange/add/[[...tokens]].tsx:399
-#: src/pages/exchange/remove/[[...tokens]].tsx:749
+#: src/pages/exchange/remove/[[...tokens]].tsx:750
 msgid "You will receive"
 msgstr "예상 수령"
 
@@ -1990,6 +1990,6 @@ msgstr "{0} 전략"
 msgid "{0} {1} per {2}"
 msgstr ""
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:637
+#: src/pages/exchange/remove/[[...tokens]].tsx:638
 msgid "{0}/{1} Burned"
 msgstr ""

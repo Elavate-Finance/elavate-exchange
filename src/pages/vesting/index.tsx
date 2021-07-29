@@ -102,7 +102,7 @@ export default function Vesting() {
   return (
     <>
       <Head>
-        <title>Vesting | Sushi</title>
+        <title>Vesting | Elavate</title>
         <meta key="description" name="description" content="SushiSwap vesting..." />
       </Head>
       <div className="w-full max-w-[900px] m-auto">

@@ -427,7 +427,7 @@ export default function Swap() {
   return (
     <>
       <Head>
-        <title>{i18n._(t`SushiSwap`)} | Sushi</title>
+        <title>{i18n._(t`SushiSwap`)} | Elavate</title>
         <meta
           key="description"
           name="description"

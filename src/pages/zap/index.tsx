@@ -258,7 +258,7 @@ export default function Zap() {
   return (
     <>
       <Head>
-        <title>{i18n._(t`Zap`)} | Sushi</title>
+        <title>{i18n._(t`Zap`)} | Elavate</title>
         <meta
           key="description"
           name="description"

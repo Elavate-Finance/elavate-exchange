@@ -28,7 +28,7 @@ export default function Tools() {
   return (
     <>
       <Head>
-        <title>Tools | Sushi</title>
+        <title>Tools | Elavate</title>
         <meta key="description" name="description" content="SushiSwap tools..." />
       </Head>
       <div className="w-screen max-w-xl space-y-4">

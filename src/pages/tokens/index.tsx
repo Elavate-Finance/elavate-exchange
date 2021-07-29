@@ -4,7 +4,7 @@ export default function Tokens() {
   return (
     <>
       <Head>
-        <title>Tokens | Sushi</title>
+        <title>Tokens | Elavate</title>
         <meta key="description" name="description" content="SushiSwap tokens." />
       </Head>
     </>

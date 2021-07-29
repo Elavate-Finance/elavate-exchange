@@ -162,7 +162,7 @@ msgstr "分析"
 #: src/features/meowshi/MeowshiButton.tsx:124
 #: src/pages/bar/index.tsx:343
 #: src/pages/exchange/migrate/index.tsx:235
-#: src/pages/exchange/remove/[[...tokens]].tsx:845
+#: src/pages/exchange/remove/[[...tokens]].tsx:846
 #: src/pages/user/balances.tsx:212
 msgid "Approve"
 msgstr "承認"
@@ -178,14 +178,14 @@ msgid "Approve {0}"
 msgstr "{0}を承認"
 
 #: src/pages/exchange/migrate/index.tsx:233
-#: src/pages/exchange/remove/[[...tokens]].tsx:843
+#: src/pages/exchange/remove/[[...tokens]].tsx:844
 msgid "Approved"
 msgstr "承認済み"
 
 #: src/features/meowshi/MeowshiButton.tsx:117
 #: src/pages/bar/index.tsx:341
 #: src/pages/exchange/migrate/index.tsx:231
-#: src/pages/exchange/remove/[[...tokens]].tsx:841
+#: src/pages/exchange/remove/[[...tokens]].tsx:842
 #: src/pages/user/balances.tsx:212
 msgid "Approving"
 msgstr "承認しています"
@@ -376,7 +376,7 @@ msgstr "担保"
 msgid "Community Approval"
 msgstr "コミュニティの承認"
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:649
+#: src/pages/exchange/remove/[[...tokens]].tsx:650
 msgid "Confirm"
 msgstr "確認"
 
@@ -397,7 +397,7 @@ msgid "Confirm Swap"
 msgstr "スワップを確認"
 
 #: src/pages/bar/index.tsx:368
-#: src/pages/exchange/remove/[[...tokens]].tsx:855
+#: src/pages/exchange/remove/[[...tokens]].tsx:856
 msgid "Confirm Withdrawal"
 msgstr "引き出しを確認"
 
@@ -1125,7 +1125,7 @@ msgid ""
 "will revert."
 msgstr ""
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:602
+#: src/pages/exchange/remove/[[...tokens]].tsx:603
 msgid "Output is estimated. If the price changes by more than {0}% your transaction will revert."
 msgstr "出力は推定値です。価格が{0}％を超えて変化した場合、トランザクションは元に戻ります。"
 
@@ -1229,7 +1229,7 @@ msgid "Price Updated"
 msgstr "価格が更新されました"
 
 #: src/features/liquidity/ConfirmAddModalBottom.tsx:29
-#: src/pages/exchange/remove/[[...tokens]].tsx:617
+#: src/pages/exchange/remove/[[...tokens]].tsx:618
 msgid "Rates"
 msgstr "レート"
 
@@ -1257,12 +1257,12 @@ msgstr ""
 #~ msgid "Remove send"
 #~ msgstr "送信を削除"
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:276
-#: src/pages/exchange/remove/[[...tokens]].tsx:276
+#: src/pages/exchange/remove/[[...tokens]].tsx:277
+#: src/pages/exchange/remove/[[...tokens]].tsx:277
 msgid "Remove {0} {1} and {2} {3}"
 msgstr ""
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:656
+#: src/pages/exchange/remove/[[...tokens]].tsx:657
 msgid "Removing {0} {1} and {2} {3}"
 msgstr "{0}{1}および{2}{3}を削除しています"
 
@@ -1715,7 +1715,7 @@ msgid "Vietnamese"
 msgstr ""
 
 #: src/pages/exchange/add/[[...tokens]].tsx:338
-#: src/pages/exchange/remove/[[...tokens]].tsx:721
+#: src/pages/exchange/remove/[[...tokens]].tsx:722
 msgid "View Liquidity Positions"
 msgstr ""
 
@@ -1825,7 +1825,7 @@ msgid "You need to first approve LP tokens and then migrate it"
 msgstr "まずLPトークンを承認してから、移行する必要があります"
 
 #: src/pages/exchange/add/[[...tokens]].tsx:399
-#: src/pages/exchange/remove/[[...tokens]].tsx:749
+#: src/pages/exchange/remove/[[...tokens]].tsx:750
 msgid "You will receive"
 msgstr "あなたは以下を受け取ります"
 
@@ -1998,6 +1998,6 @@ msgstr "{0}戦略"
 msgid "{0} {1} per {2}"
 msgstr ""
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:637
+#: src/pages/exchange/remove/[[...tokens]].tsx:638
 msgid "{0}/{1} Burned"
 msgstr ""

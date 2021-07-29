@@ -310,7 +310,7 @@ export default function Migrate() {
   return (
     <>
       <Head>
-        <title>Migrate | Sushi</title>
+        <title>Migrate | Elavate</title>
         <meta key="description" name="description" content="Migrate your liquidity to SushiSwap." />
       </Head>
 

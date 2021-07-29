@@ -15,7 +15,7 @@ export default function BenotBox() {
   return (
     <>
       <Head>
-        <title>BentoBox | Sushi</title>
+        <title>BentoBox | Elavate</title>
         <meta
           key="description"
           name="description"

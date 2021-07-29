@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: lokalise.com\n"
-"Project-Id-Version: SushiSwap Interface\n"
+"Project-Id-Version: Elavate Interface\n"
 "PO-Revision-Date: 2021-05-05 14:23\n"
 "Last-Translator: lokalise.com\n"
 "Language-Team: lokalise.com\n\n"
@@ -163,7 +163,7 @@ msgstr "Analytics"
 #: src/features/meowshi/MeowshiButton.tsx:124
 #: src/pages/bar/index.tsx:343
 #: src/pages/exchange/migrate/index.tsx:235
-#: src/pages/exchange/remove/[[...tokens]].tsx:845
+#: src/pages/exchange/remove/[[...tokens]].tsx:846
 #: src/pages/user/balances.tsx:212
 msgid "Approve"
 msgstr "Approve"
@@ -179,14 +179,14 @@ msgid "Approve {0}"
 msgstr "Approve {0}"
 
 #: src/pages/exchange/migrate/index.tsx:233
-#: src/pages/exchange/remove/[[...tokens]].tsx:843
+#: src/pages/exchange/remove/[[...tokens]].tsx:844
 msgid "Approved"
 msgstr "Approved"
 
 #: src/features/meowshi/MeowshiButton.tsx:117
 #: src/pages/bar/index.tsx:341
 #: src/pages/exchange/migrate/index.tsx:231
-#: src/pages/exchange/remove/[[...tokens]].tsx:841
+#: src/pages/exchange/remove/[[...tokens]].tsx:842
 #: src/pages/user/balances.tsx:212
 msgid "Approving"
 msgstr "Approving"
@@ -385,7 +385,7 @@ msgstr "Collateral"
 msgid "Community Approval"
 msgstr "Community Approval"
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:649
+#: src/pages/exchange/remove/[[...tokens]].tsx:650
 msgid "Confirm"
 msgstr "Confirm"
 
@@ -406,7 +406,7 @@ msgid "Confirm Swap"
 msgstr "Confirm Swap"
 
 #: src/pages/bar/index.tsx:368
-#: src/pages/exchange/remove/[[...tokens]].tsx:855
+#: src/pages/exchange/remove/[[...tokens]].tsx:856
 msgid "Confirm Withdrawal"
 msgstr "Confirm Withdrawal"
 
@@ -1153,7 +1153,7 @@ msgstr ""
 "Output is estimated. If the price changes by more than {0}% your transaction\n"
 "will revert."
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:602
+#: src/pages/exchange/remove/[[...tokens]].tsx:603
 msgid "Output is estimated. If the price changes by more than {0}% your transaction will revert."
 msgstr "Output is estimated. If the price changes by more than {0}% your transaction will revert."
 
@@ -1257,7 +1257,7 @@ msgid "Price Updated"
 msgstr "Price Updated"
 
 #: src/features/liquidity/ConfirmAddModalBottom.tsx:29
-#: src/pages/exchange/remove/[[...tokens]].tsx:617
+#: src/pages/exchange/remove/[[...tokens]].tsx:618
 msgid "Rates"
 msgstr "Rates"
 
@@ -1285,12 +1285,12 @@ msgstr "Remove recipient"
 #~ msgid "Remove send"
 #~ msgstr "Remove send"
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:276
-#: src/pages/exchange/remove/[[...tokens]].tsx:276
+#: src/pages/exchange/remove/[[...tokens]].tsx:277
+#: src/pages/exchange/remove/[[...tokens]].tsx:277
 msgid "Remove {0} {1} and {2} {3}"
 msgstr "Remove {0} {1} and {2} {3}"
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:656
+#: src/pages/exchange/remove/[[...tokens]].tsx:657
 msgid "Removing {0} {1} and {2} {3}"
 msgstr "Removing {0} {1} and {2} {3}"
 
@@ -1492,7 +1492,7 @@ msgstr "Sushi is a supporter of Open Source."
 
 #: src/pages/exchange/swap/[[...tokens]].tsx:430
 msgid "SushiSwap"
-msgstr "SushiSwap"
+msgstr "Swap"
 
 #: src/components/ExchangeHeader.tsx:49
 #: src/components/Header/index.tsx:48
@@ -1747,7 +1747,7 @@ msgid "Vietnamese"
 msgstr "Vietnamese"
 
 #: src/pages/exchange/add/[[...tokens]].tsx:338
-#: src/pages/exchange/remove/[[...tokens]].tsx:721
+#: src/pages/exchange/remove/[[...tokens]].tsx:722
 msgid "View Liquidity Positions"
 msgstr "View Liquidity Positions"
 
@@ -1857,7 +1857,7 @@ msgid "You need to first approve LP tokens and then migrate it"
 msgstr "You need to first approve LP tokens and then migrate it"
 
 #: src/pages/exchange/add/[[...tokens]].tsx:399
-#: src/pages/exchange/remove/[[...tokens]].tsx:749
+#: src/pages/exchange/remove/[[...tokens]].tsx:750
 msgid "You will receive"
 msgstr "You will receive"
 
@@ -2032,6 +2032,6 @@ msgstr "{0} Strategy"
 msgid "{0} {1} per {2}"
 msgstr "{0} {1} per {2}"
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:637
+#: src/pages/exchange/remove/[[...tokens]].tsx:638
 msgid "{0}/{1} Burned"
 msgstr "{0}/{1} Burned"

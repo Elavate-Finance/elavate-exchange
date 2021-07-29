@@ -77,7 +77,7 @@ export default function PoolFinder() {
   return (
     <>
       <Head>
-        <title>{i18n._(t`Find Pool`)} | Sushi</title>
+        <title>{i18n._(t`Find Pool`)} | Elavate</title>
         <meta key="description" name="description" content="Find pool" />
       </Head>
 

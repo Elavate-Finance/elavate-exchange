@@ -160,7 +160,7 @@ export default function Stake() {
   return (
     <>
       <Head>
-        <title key="title">Stake | Sushi</title>
+        <title key="title">Stake | Elavate</title>
         <meta
           key="description"
           name="description"

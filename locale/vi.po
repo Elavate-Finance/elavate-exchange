@@ -164,7 +164,7 @@ msgstr "Phân tích"
 #: src/features/meowshi/MeowshiButton.tsx:124
 #: src/pages/bar/index.tsx:343
 #: src/pages/exchange/migrate/index.tsx:235
-#: src/pages/exchange/remove/[[...tokens]].tsx:845
+#: src/pages/exchange/remove/[[...tokens]].tsx:846
 #: src/pages/user/balances.tsx:212
 msgid "Approve"
 msgstr "Phê duyệt"
@@ -180,14 +180,14 @@ msgid "Approve {0}"
 msgstr "Phê duyệt {0}"
 
 #: src/pages/exchange/migrate/index.tsx:233
-#: src/pages/exchange/remove/[[...tokens]].tsx:843
+#: src/pages/exchange/remove/[[...tokens]].tsx:844
 msgid "Approved"
 msgstr "Đã phê duyệt"
 
 #: src/features/meowshi/MeowshiButton.tsx:117
 #: src/pages/bar/index.tsx:341
 #: src/pages/exchange/migrate/index.tsx:231
-#: src/pages/exchange/remove/[[...tokens]].tsx:841
+#: src/pages/exchange/remove/[[...tokens]].tsx:842
 #: src/pages/user/balances.tsx:212
 msgid "Approving"
 msgstr "Đang phê duyệt"
@@ -379,7 +379,7 @@ msgstr "Tài sản thế chấp"
 msgid "Community Approval"
 msgstr "Phê duyệt của cộng đồng"
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:649
+#: src/pages/exchange/remove/[[...tokens]].tsx:650
 msgid "Confirm"
 msgstr "Xác nhận"
 
@@ -400,7 +400,7 @@ msgid "Confirm Swap"
 msgstr "Xác nhận Hoán đổi"
 
 #: src/pages/bar/index.tsx:368
-#: src/pages/exchange/remove/[[...tokens]].tsx:855
+#: src/pages/exchange/remove/[[...tokens]].tsx:856
 msgid "Confirm Withdrawal"
 msgstr "Xác nhận rút tiền"
 
@@ -1137,7 +1137,7 @@ msgid ""
 "will revert."
 msgstr ""
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:602
+#: src/pages/exchange/remove/[[...tokens]].tsx:603
 msgid "Output is estimated. If the price changes by more than {0}% your transaction will revert."
 msgstr "Đã ước tính đầu ra. Nếu giá thay đổi hơn {0} % thì giao dịch của bạn sẽ hoàn nguyên."
 
@@ -1241,7 +1241,7 @@ msgid "Price Updated"
 msgstr "Đã cập nhật giá"
 
 #: src/features/liquidity/ConfirmAddModalBottom.tsx:29
-#: src/pages/exchange/remove/[[...tokens]].tsx:617
+#: src/pages/exchange/remove/[[...tokens]].tsx:618
 msgid "Rates"
 msgstr "Tỷ giá"
 
@@ -1269,12 +1269,12 @@ msgstr ""
 #~ msgid "Remove send"
 #~ msgstr "Xóa gửi"
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:276
-#: src/pages/exchange/remove/[[...tokens]].tsx:276
+#: src/pages/exchange/remove/[[...tokens]].tsx:277
+#: src/pages/exchange/remove/[[...tokens]].tsx:277
 msgid "Remove {0} {1} and {2} {3}"
 msgstr ""
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:656
+#: src/pages/exchange/remove/[[...tokens]].tsx:657
 msgid "Removing {0} {1} and {2} {3}"
 msgstr "Xóa {0} {1} và {2} {3}"
 
@@ -1729,7 +1729,7 @@ msgid "Vietnamese"
 msgstr ""
 
 #: src/pages/exchange/add/[[...tokens]].tsx:338
-#: src/pages/exchange/remove/[[...tokens]].tsx:721
+#: src/pages/exchange/remove/[[...tokens]].tsx:722
 msgid "View Liquidity Positions"
 msgstr ""
 
@@ -1839,7 +1839,7 @@ msgid "You need to first approve LP tokens and then migrate it"
 msgstr "Trước tiên, bạn cần phê duyệt token LP và sau đó di chuyển"
 
 #: src/pages/exchange/add/[[...tokens]].tsx:399
-#: src/pages/exchange/remove/[[...tokens]].tsx:749
+#: src/pages/exchange/remove/[[...tokens]].tsx:750
 msgid "You will receive"
 msgstr "Bạn sẽ nhận được"
 
@@ -2012,6 +2012,6 @@ msgstr "{0} Chiến lược"
 msgid "{0} {1} per {2}"
 msgstr ""
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:637
+#: src/pages/exchange/remove/[[...tokens]].tsx:638
 msgid "{0}/{1} Burned"
 msgstr ""

@@ -164,7 +164,7 @@ msgstr "Аналитика"
 #: src/features/meowshi/MeowshiButton.tsx:124
 #: src/pages/bar/index.tsx:343
 #: src/pages/exchange/migrate/index.tsx:235
-#: src/pages/exchange/remove/[[...tokens]].tsx:845
+#: src/pages/exchange/remove/[[...tokens]].tsx:846
 #: src/pages/user/balances.tsx:212
 msgid "Approve"
 msgstr "Утвердить"
@@ -180,14 +180,14 @@ msgid "Approve {0}"
 msgstr "Утвердить {0}"
 
 #: src/pages/exchange/migrate/index.tsx:233
-#: src/pages/exchange/remove/[[...tokens]].tsx:843
+#: src/pages/exchange/remove/[[...tokens]].tsx:844
 msgid "Approved"
 msgstr "Утверждено"
 
 #: src/features/meowshi/MeowshiButton.tsx:117
 #: src/pages/bar/index.tsx:341
 #: src/pages/exchange/migrate/index.tsx:231
-#: src/pages/exchange/remove/[[...tokens]].tsx:841
+#: src/pages/exchange/remove/[[...tokens]].tsx:842
 #: src/pages/user/balances.tsx:212
 msgid "Approving"
 msgstr "Утверждение"
@@ -383,7 +383,7 @@ msgstr "Обеспечение"
 msgid "Community Approval"
 msgstr "Утверждение сообщества"
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:649
+#: src/pages/exchange/remove/[[...tokens]].tsx:650
 msgid "Confirm"
 msgstr "Подтвердить"
 
@@ -404,7 +404,7 @@ msgid "Confirm Swap"
 msgstr "Подтвердить обмен"
 
 #: src/pages/bar/index.tsx:368
-#: src/pages/exchange/remove/[[...tokens]].tsx:855
+#: src/pages/exchange/remove/[[...tokens]].tsx:856
 msgid "Confirm Withdrawal"
 msgstr "Подтвердите вывод средств"
 
@@ -1145,7 +1145,7 @@ msgid ""
 "will revert."
 msgstr ""
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:602
+#: src/pages/exchange/remove/[[...tokens]].tsx:603
 msgid "Output is estimated. If the price changes by more than {0}% your transaction will revert."
 msgstr "Вывод оценен. Если цена изменится более чем на {0}%, транзакция будет отменена."
 
@@ -1249,7 +1249,7 @@ msgid "Price Updated"
 msgstr "Цена обновлена"
 
 #: src/features/liquidity/ConfirmAddModalBottom.tsx:29
-#: src/pages/exchange/remove/[[...tokens]].tsx:617
+#: src/pages/exchange/remove/[[...tokens]].tsx:618
 msgid "Rates"
 msgstr "Тарифы"
 
@@ -1277,12 +1277,12 @@ msgstr ""
 #~ msgid "Remove send"
 #~ msgstr "Удалить отправку"
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:276
-#: src/pages/exchange/remove/[[...tokens]].tsx:276
+#: src/pages/exchange/remove/[[...tokens]].tsx:277
+#: src/pages/exchange/remove/[[...tokens]].tsx:277
 msgid "Remove {0} {1} and {2} {3}"
 msgstr ""
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:656
+#: src/pages/exchange/remove/[[...tokens]].tsx:657
 msgid "Removing {0} {1} and {2} {3}"
 msgstr "Удаление {0} {1} и {2} {3}"
 
@@ -1737,7 +1737,7 @@ msgid "Vietnamese"
 msgstr ""
 
 #: src/pages/exchange/add/[[...tokens]].tsx:338
-#: src/pages/exchange/remove/[[...tokens]].tsx:721
+#: src/pages/exchange/remove/[[...tokens]].tsx:722
 msgid "View Liquidity Positions"
 msgstr ""
 
@@ -1847,7 +1847,7 @@ msgid "You need to first approve LP tokens and then migrate it"
 msgstr "Вам необходимо сначала утвердить токены LP, а затем перенести их"
 
 #: src/pages/exchange/add/[[...tokens]].tsx:399
-#: src/pages/exchange/remove/[[...tokens]].tsx:749
+#: src/pages/exchange/remove/[[...tokens]].tsx:750
 msgid "You will receive"
 msgstr "Вы получите"
 
@@ -2022,6 +2022,6 @@ msgstr "Стратегия {0}"
 msgid "{0} {1} per {2}"
 msgstr ""
 
-#: src/pages/exchange/remove/[[...tokens]].tsx:637
+#: src/pages/exchange/remove/[[...tokens]].tsx:638
 msgid "{0}/{1} Burned"
 msgstr ""

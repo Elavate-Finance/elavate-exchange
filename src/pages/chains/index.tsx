@@ -10,7 +10,7 @@ export default function Status({ initialData }) {
   return (
     <>
       <Head>
-        <title>Chains | Sushi</title>
+        <title>Chains | Elavate</title>
         <meta key="description" name="description" content="Chains..." />
       </Head>
       <div className="w-full max-w-6xl mx-auto">

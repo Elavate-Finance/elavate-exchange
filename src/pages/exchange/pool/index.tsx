@@ -88,7 +88,7 @@ export default function Pool() {
   return (
     <>
       <Head>
-        <title>Pool | Sushi</title>
+        <title>Pool | Elavate</title>
         <meta
           key="description"
           name="description"

@@ -3,7 +3,7 @@ export default function Settings() {
   return (
     <>
       <Head>
-        <title>Settings | Sushi</title>
+        <title>Settings | Elavate</title>
         <meta name="description" content="SushiSwap Settings..." />
       </Head>
     </>

@@ -711,7 +711,7 @@ export default function Remove() {
   return (
     <>
       <Head>
-        <title>Remove Liquidity | Sushi</title>
+        <title>Remove Liquidity | Elavate</title>
         <meta key="description" name="description" content="Remove liquidity from the SushiSwap AMM" />
       </Head>
 

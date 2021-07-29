@@ -7,7 +7,7 @@ export default function Analytics() {
   return (
     <>
       <Head>
-        <title>Analytics Dashboard | Sushi</title>
+        <title>Analytics Dashboard | Elavate</title>
         <meta name="description" content="SUSHI Analytics Dashboard by Sushi..." />
       </Head>
       <Container maxWidth="full" className="grid h-full grid-cols-4 mx-auto gap-9">

@@ -28,7 +28,7 @@ export default function Pair() {
   return (
     <>
       <Head>
-        <title>Lend {pair.asset.tokenInfo.symbol} | Sushi</title>
+        <title>Lend {pair.asset.tokenInfo.symbol} | Elavate</title>
         <meta key="description" name="description" content={`Lend ${pair.asset.tokenInfo.symbol} on Kashi`} />
       </Head>
       <Card

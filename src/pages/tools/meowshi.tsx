@@ -122,7 +122,7 @@ export default function Meowshi() {
   return (
     <>
       <Head>
-        <title>Meowshi | Sushi</title>
+        <title>Meowshi | Elavate</title>
         <meta key="description" name="description" content="SushiSwap Meowshi..." />
       </Head>
 

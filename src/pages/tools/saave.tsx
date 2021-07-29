@@ -6,7 +6,7 @@ export default function Saave() {
   return (
     <>
       <Head>
-        <title>Saave | Sushi</title>
+        <title>Saave | Elavate</title>
         <meta key="description" name="description" content="SushiSwap Saave..." />
       </Head>
 

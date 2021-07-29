@@ -63,7 +63,7 @@ export default function Me() {
   return (
     <>
       <Head>
-        <title>My SUSHI | Sushi</title>
+        <title>My SUSHI | Elavate</title>
         <meta key="description" name="description" content="My SUSHI" />
       </Head>
 

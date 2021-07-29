@@ -258,7 +258,7 @@ export default function Farm(): JSX.Element {
   return (
     <>
       <Head>
-        <title>Farm | Sushi</title>
+        <title>Farm | Elavate</title>
         <meta key="description" name="description" content="Farm SUSHI" />
       </Head>
       <Container maxWidth="full" className="grid h-full grid-cols-4 mx-auto gap-9">
