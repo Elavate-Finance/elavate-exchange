@@ -77,13 +77,13 @@ msgid "A portion of each trade (0.25%) goes to liquidity providers as a protocol
 msgstr "Une portion de chaque transaction (0,25%) est reversée aux fournisseurs de liquidité au titre d'incitation à participer au protocole."
 
 #: src/features/farm/FarmList.tsx:43
-#: src/pages/kashi/borrow/index.tsx:90
-#: src/pages/kashi/borrow/index.tsx:193
 #: src/pages/kashi/borrow/[pair].tsx:124
 #: src/pages/kashi/borrow/[pair].tsx:188
+#: src/pages/kashi/borrow/index.tsx:90
+#: src/pages/kashi/borrow/index.tsx:193
+#: src/pages/kashi/lend/[pair].tsx:148
 #: src/pages/kashi/lend/index.tsx:84
 #: src/pages/kashi/lend/index.tsx:172
-#: src/pages/kashi/lend/[pair].tsx:148
 msgid "APR"
 msgstr "APR"
 
@@ -210,8 +210,8 @@ msgstr "Êtes-vous sûr?"
 msgid "Auto"
 msgstr ""
 
-#: src/pages/kashi/borrow/index.tsx:185
 #: src/pages/kashi/borrow/[pair].tsx:204
+#: src/pages/kashi/borrow/index.tsx:185
 #: src/pages/kashi/lend/[pair].tsx:161
 msgid "Available"
 msgstr "Disponible"
@@ -259,9 +259,9 @@ msgstr "Les stratégies BentoBox peuvent générer du rendement pour les liquidi
 
 #: src/components/Header/index.tsx:94
 #: src/components/Header/index.tsx:331
+#: src/pages/kashi/borrow/[pair].tsx:135
 #: src/pages/kashi/borrow/index.tsx:37
 #: src/pages/kashi/borrow/index.tsx:163
-#: src/pages/kashi/borrow/[pair].tsx:135
 msgid "Borrow"
 msgstr "Emprunter"
 
@@ -282,13 +282,13 @@ msgstr "Emprunter {0}"
 msgid "Borrow {0}-{1}"
 msgstr "Emprunter {0} - {1}"
 
-#: src/pages/kashi/borrow/index.tsx:64
-#: src/pages/kashi/borrow/index.tsx:177
 #: src/pages/kashi/borrow/[pair].tsx:113
 #: src/pages/kashi/borrow/[pair].tsx:212
+#: src/pages/kashi/borrow/index.tsx:64
+#: src/pages/kashi/borrow/index.tsx:177
+#: src/pages/kashi/lend/[pair].tsx:167
 #: src/pages/kashi/lend/index.tsx:76
 #: src/pages/kashi/lend/index.tsx:180
-#: src/pages/kashi/lend/[pair].tsx:167
 msgid "Borrowed"
 msgstr "Emprunté"
 
@@ -374,13 +374,13 @@ msgstr ""
 #~ "Cliquez sur un pool ci-dessous, saisissez le montant que vous souhaitez migrer ou sélectionnez max, puis cliquez sur \n"
 #~ " migrer"
 
-#: src/pages/kashi/borrow/index.tsx:72
-#: src/pages/kashi/borrow/index.tsx:166
 #: src/pages/kashi/borrow/[pair].tsx:93
 #: src/pages/kashi/borrow/[pair].tsx:106
+#: src/pages/kashi/borrow/index.tsx:72
+#: src/pages/kashi/borrow/index.tsx:166
+#: src/pages/kashi/lend/[pair].tsx:173
 #: src/pages/kashi/lend/index.tsx:57
 #: src/pages/kashi/lend/index.tsx:160
-#: src/pages/kashi/lend/[pair].tsx:173
 msgid "Collateral"
 msgstr "Collatéral"
 
@@ -1136,12 +1136,12 @@ msgstr "Open source"
 msgid "Open main menu"
 msgstr "Ouvrir le menu principal"
 
-#: src/pages/kashi/borrow/index.tsx:169
 #: src/pages/kashi/borrow/[pair].tsx:95
 #: src/pages/kashi/borrow/[pair].tsx:219
+#: src/pages/kashi/borrow/index.tsx:169
+#: src/pages/kashi/lend/[pair].tsx:190
 #: src/pages/kashi/lend/index.tsx:60
 #: src/pages/kashi/lend/index.tsx:163
-#: src/pages/kashi/lend/[pair].tsx:190
 msgid "Oracle"
 msgstr "Oracle"
 
@@ -1630,8 +1630,8 @@ msgid "Tools to optimize your workflow."
 msgstr "Des outils pour optimiser votre flux de travail."
 
 #: src/pages/kashi/borrow/[pair].tsx:198
-#: src/pages/kashi/lend/index.tsx:188
 #: src/pages/kashi/lend/[pair].tsx:155
+#: src/pages/kashi/lend/index.tsx:188
 msgid "Total"
 msgstr "Total"
 

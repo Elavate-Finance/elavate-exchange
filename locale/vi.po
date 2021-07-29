@@ -76,13 +76,13 @@ msgid "A portion of each trade (0.25%) goes to liquidity providers as a protocol
 msgstr "Một phần của mỗi giao dịch (0,25%) được chuyển đến các nhà cung cấp thanh khoản như một biện pháp khuyến khích giao thức."
 
 #: src/features/farm/FarmList.tsx:43
-#: src/pages/kashi/borrow/index.tsx:90
-#: src/pages/kashi/borrow/index.tsx:193
 #: src/pages/kashi/borrow/[pair].tsx:124
 #: src/pages/kashi/borrow/[pair].tsx:188
+#: src/pages/kashi/borrow/index.tsx:90
+#: src/pages/kashi/borrow/index.tsx:193
+#: src/pages/kashi/lend/[pair].tsx:148
 #: src/pages/kashi/lend/index.tsx:84
 #: src/pages/kashi/lend/index.tsx:172
-#: src/pages/kashi/lend/[pair].tsx:148
 msgid "APR"
 msgstr "Lãi suất phần trăm hàng năm - APR"
 
@@ -209,8 +209,8 @@ msgstr "Bạn có chắc không?"
 msgid "Auto"
 msgstr ""
 
-#: src/pages/kashi/borrow/index.tsx:185
 #: src/pages/kashi/borrow/[pair].tsx:204
+#: src/pages/kashi/borrow/index.tsx:185
 #: src/pages/kashi/lend/[pair].tsx:161
 msgid "Available"
 msgstr "Có sẵn"
@@ -258,9 +258,9 @@ msgstr "Chiến lược BentoBox có thể tạo ra lợi suất cho thanh kho�
 
 #: src/components/Header/index.tsx:94
 #: src/components/Header/index.tsx:331
+#: src/pages/kashi/borrow/[pair].tsx:135
 #: src/pages/kashi/borrow/index.tsx:37
 #: src/pages/kashi/borrow/index.tsx:163
-#: src/pages/kashi/borrow/[pair].tsx:135
 msgid "Borrow"
 msgstr "Vay"
 
@@ -281,13 +281,13 @@ msgstr "Vay {0}"
 msgid "Borrow {0}-{1}"
 msgstr "Vay {0} - {1}"
 
-#: src/pages/kashi/borrow/index.tsx:64
-#: src/pages/kashi/borrow/index.tsx:177
 #: src/pages/kashi/borrow/[pair].tsx:113
 #: src/pages/kashi/borrow/[pair].tsx:212
+#: src/pages/kashi/borrow/index.tsx:64
+#: src/pages/kashi/borrow/index.tsx:177
+#: src/pages/kashi/lend/[pair].tsx:167
 #: src/pages/kashi/lend/index.tsx:76
 #: src/pages/kashi/lend/index.tsx:180
-#: src/pages/kashi/lend/[pair].tsx:167
 msgid "Borrowed"
 msgstr "Đã vay"
 
@@ -369,13 +369,13 @@ msgstr "Nhấp vào mạng lưới bên dưới, nhập số tiền bạn muốn
 #~ msgid "Click on a pool below, input the amount you wish to migrate or select max, and clickmigrate"
 #~ msgstr "Nhấp vào mạng lưới bên dưới, nhập số tiền bạn muốn di chuyển hoặc chọn tối đa và nhấp vào di chuyển"
 
-#: src/pages/kashi/borrow/index.tsx:72
-#: src/pages/kashi/borrow/index.tsx:166
 #: src/pages/kashi/borrow/[pair].tsx:93
 #: src/pages/kashi/borrow/[pair].tsx:106
+#: src/pages/kashi/borrow/index.tsx:72
+#: src/pages/kashi/borrow/index.tsx:166
+#: src/pages/kashi/lend/[pair].tsx:173
 #: src/pages/kashi/lend/index.tsx:57
 #: src/pages/kashi/lend/index.tsx:160
-#: src/pages/kashi/lend/[pair].tsx:173
 msgid "Collateral"
 msgstr "Tài sản thế chấp"
 
@@ -1126,12 +1126,12 @@ msgstr "Mã nguồn mở"
 msgid "Open main menu"
 msgstr "Mở menu chính"
 
-#: src/pages/kashi/borrow/index.tsx:169
 #: src/pages/kashi/borrow/[pair].tsx:95
 #: src/pages/kashi/borrow/[pair].tsx:219
+#: src/pages/kashi/borrow/index.tsx:169
+#: src/pages/kashi/lend/[pair].tsx:190
 #: src/pages/kashi/lend/index.tsx:60
 #: src/pages/kashi/lend/index.tsx:163
-#: src/pages/kashi/lend/[pair].tsx:190
 msgid "Oracle"
 msgstr "Oracle"
 
@@ -1620,8 +1620,8 @@ msgid "Tools to optimize your workflow."
 msgstr "Công cụ để tối ưu hóa quy trình làm việc của bạn."
 
 #: src/pages/kashi/borrow/[pair].tsx:198
-#: src/pages/kashi/lend/index.tsx:188
 #: src/pages/kashi/lend/[pair].tsx:155
+#: src/pages/kashi/lend/index.tsx:188
 msgid "Total"
 msgstr "Tổng cộng"
 
