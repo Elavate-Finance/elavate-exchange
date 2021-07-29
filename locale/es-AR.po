@@ -107,13 +107,17 @@ msgstr "Aceptar"
 msgid "Add"
 msgstr "Agregar"
 
+#: src/components/Header/index.tsx:171
+msgid "Add GLIDE to your MetaMask wallet"
+msgstr ""
+
 #: src/components/NavigationTabs/index.tsx:69
 msgid "Add Liquidity"
 msgstr "Agregar liquidez"
 
 #: src/components/Header/index.tsx:171
-msgid "Add SUSHI to your MetaMask wallet"
-msgstr ""
+#~ msgid "Add SUSHI to your MetaMask wallet"
+#~ msgstr ""
 
 #: src/components/AppBar.tsx:138
 #, fuzzy

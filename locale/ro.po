@@ -101,13 +101,17 @@ msgstr "Acceptați"
 msgid "Add"
 msgstr "Adăugați"
 
+#: src/components/Header/index.tsx:171
+msgid "Add GLIDE to your MetaMask wallet"
+msgstr ""
+
 #: src/components/NavigationTabs/index.tsx:69
 msgid "Add Liquidity"
 msgstr "Adăugați lichidități"
 
 #: src/components/Header/index.tsx:171
-msgid "Add SUSHI to your MetaMask wallet"
-msgstr ""
+#~ msgid "Add SUSHI to your MetaMask wallet"
+#~ msgstr ""
 
 #: src/components/AppBar.tsx:138
 #~ msgid "Add Sushi to your Metamask wallet"

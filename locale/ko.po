@@ -99,13 +99,17 @@ msgstr "동의"
 msgid "Add"
 msgstr "추가"
 
+#: src/components/Header/index.tsx:171
+msgid "Add GLIDE to your MetaMask wallet"
+msgstr ""
+
 #: src/components/NavigationTabs/index.tsx:69
 msgid "Add Liquidity"
 msgstr "유동성 추가"
 
 #: src/components/Header/index.tsx:171
-msgid "Add SUSHI to your MetaMask wallet"
-msgstr ""
+#~ msgid "Add SUSHI to your MetaMask wallet"
+#~ msgstr ""
 
 #: src/components/AppBar.tsx:138
 #~ msgid "Add Sushi to your Metamask wallet"
