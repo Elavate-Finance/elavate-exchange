@@ -53,9 +53,9 @@ var _FACTORY_ADDRESS,
 var FACTORY_ADDRESS =
   ((_FACTORY_ADDRESS = {}),
   (_FACTORY_ADDRESS[ChainId.ELASTOS] =
-    '0x0AE8Bb3639241ad93EA76dF7b0bf603Ed989b41B'), // sushi
-  // '0x0AE8Bb3639241ad93EA76dF7b0bf603Ed989b41B'), // tokswap
-  // '0xfCEEb7bB56F82A623d872f71dF6408deD1F8068f'), // mdex
+    // '0x0AE8Bb3639241ad93EA76dF7b0bf603Ed989b41B'), // sushi
+    // '0x0AE8Bb3639241ad93EA76dF7b0bf603Ed989b41B'), // tokswap
+    '0xCE314A22Ffca051836C40754Eccb4c7d56787d8B'), // mdex
   (_FACTORY_ADDRESS[ChainId.MAINNET] =
     '0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac'),
   (_FACTORY_ADDRESS[ChainId.ROPSTEN] =
@@ -106,9 +106,9 @@ var FACTORY_ADDRESS =
 var ROUTER_ADDRESS =
   ((_ROUTER_ADDRESS = {}),
   (_ROUTER_ADDRESS[ChainId.ELASTOS] =
-    '0x203491561713582990797908B341ea2016fa94cd'), // sushi
-  // '0x1FF9598aBCBbC2F3A9B15261403459215b352e2b'), // tokswap
-  // '0xd8FAb6FD755fC167246897a0Df88c5b8b94Aa6A6'), // mdex
+    // '0x203491561713582990797908B341ea2016fa94cd'), // sushi
+    // '0x1FF9598aBCBbC2F3A9B15261403459215b352e2b'), // tokswap
+    '0x845C92C84CD23b5839a5f23010a806F6E9432F3e'), // mdex
   (_ROUTER_ADDRESS[ChainId.MAINNET] =
     '0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F'),
   (_ROUTER_ADDRESS[ChainId.RINKEBY] =
@@ -945,9 +945,9 @@ var WNATIVE =
   ((_WNATIVE = {}),
   (_WNATIVE[ChainId.ELASTOS] = /*#__PURE__*/ new Token(
     ChainId.ELASTOS,
-    '0x02AbF51054e9dAbA464e89014E4807289a73C1c7', // sushi
-    // '0x517E9e5d46C1EA8aB6f78677d6114Ef47F71f6c4', // tokswap
-    // '0x6982D74b1954D766c83E9Fb70eAB08F8d01256DE', // mdex
+    // '0x02AbF51054e9dAbA464e89014E4807289a73C1c7', // sushi
+    //'0x517E9e5d46C1EA8aB6f78677d6114Ef47F71f6c4', // tokswap
+    '0x517E9e5d46C1EA8aB6f78677d6114Ef47F71f6c4', // mdex
     18,
     'WELA',
     'Wrapped ELA'
@@ -1593,9 +1593,9 @@ var MaxUint256 = /*#__PURE__*/ JSBI.BigInt(
   '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
 )
 var INIT_CODE_HASH =
-  '0x73ae11588921db1f4b83e49b062b06724d18b1d5464920388597e0050d883d5f' // sushi
-// '0xe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303' // original
-// '0x7da8b34c1fd49281b50617260f5091f7d6916364b8de5932cf73330afafc4755' // mdex
+  // '0x73ae11588921db1f4b83e49b062b06724d18b1d5464920388597e0050d883d5f' // sushi
+  // '0xe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303' // original
+  '0x0ee596002d528eaeffda2e4cebef31a08051fd59dff87955ccbff828a413e99e' // mdex
 var MINIMUM_LIQUIDITY = /*#__PURE__*/ JSBI.BigInt(1000) // exports for internal consumption
 
 var ZERO = /*#__PURE__*/ JSBI.BigInt(0)
@@ -2658,6 +2658,7 @@ var Percent = /*#__PURE__*/ (function (_Fraction) {
 
 var Route = /*#__PURE__*/ (function () {
   function Route(pairs, input, output) {
+    console.log('ROUTE')
     this._midPrice = null
     !(pairs.length > 0)
       ? process.env.NODE_ENV !== 'production'

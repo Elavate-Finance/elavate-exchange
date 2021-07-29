@@ -74,13 +74,13 @@ msgid "A portion of each trade (0.25%) goes to liquidity providers as a protocol
 msgstr "各取引の一部 (0.25％) は、プロトコルのインセンティブとして流動性プロバイダーに支払われます。"
 
 #: src/features/farm/FarmList.tsx:43
-#: src/pages/kashi/borrow/[pair].tsx:124
-#: src/pages/kashi/borrow/[pair].tsx:188
 #: src/pages/kashi/borrow/index.tsx:90
 #: src/pages/kashi/borrow/index.tsx:193
-#: src/pages/kashi/lend/[pair].tsx:148
+#: src/pages/kashi/borrow/[pair].tsx:124
+#: src/pages/kashi/borrow/[pair].tsx:188
 #: src/pages/kashi/lend/index.tsx:84
 #: src/pages/kashi/lend/index.tsx:172
+#: src/pages/kashi/lend/[pair].tsx:148
 msgid "APR"
 msgstr "APR"
 
@@ -207,8 +207,8 @@ msgstr "よろしいですか？"
 msgid "Auto"
 msgstr ""
 
-#: src/pages/kashi/borrow/[pair].tsx:204
 #: src/pages/kashi/borrow/index.tsx:185
+#: src/pages/kashi/borrow/[pair].tsx:204
 #: src/pages/kashi/lend/[pair].tsx:161
 msgid "Available"
 msgstr "利用可能"
@@ -256,9 +256,9 @@ msgstr "BentoBox戦略は、流動性が貸し出されていない間に利回�
 
 #: src/components/Header/index.tsx:94
 #: src/components/Header/index.tsx:331
-#: src/pages/kashi/borrow/[pair].tsx:135
 #: src/pages/kashi/borrow/index.tsx:37
 #: src/pages/kashi/borrow/index.tsx:163
+#: src/pages/kashi/borrow/[pair].tsx:135
 msgid "Borrow"
 msgstr "借入れる"
 
@@ -279,13 +279,13 @@ msgstr "{0}を借り入れる"
 msgid "Borrow {0}-{1}"
 msgstr "{0}～{1}を借り入れる"
 
-#: src/pages/kashi/borrow/[pair].tsx:113
-#: src/pages/kashi/borrow/[pair].tsx:212
 #: src/pages/kashi/borrow/index.tsx:64
 #: src/pages/kashi/borrow/index.tsx:177
-#: src/pages/kashi/lend/[pair].tsx:167
+#: src/pages/kashi/borrow/[pair].tsx:113
+#: src/pages/kashi/borrow/[pair].tsx:212
 #: src/pages/kashi/lend/index.tsx:76
 #: src/pages/kashi/lend/index.tsx:180
+#: src/pages/kashi/lend/[pair].tsx:167
 msgid "Borrowed"
 msgstr "借入れ済み"
 
@@ -366,13 +366,13 @@ msgstr ""
 #~ msgid "Click on a pool below, input the amount you wish to migrate or select max, and clickmigrate"
 #~ msgstr "下のプールをクリックして移行する量を入力するか、最大を選択して移行をクリックします"
 
-#: src/pages/kashi/borrow/[pair].tsx:93
-#: src/pages/kashi/borrow/[pair].tsx:106
 #: src/pages/kashi/borrow/index.tsx:72
 #: src/pages/kashi/borrow/index.tsx:166
-#: src/pages/kashi/lend/[pair].tsx:173
+#: src/pages/kashi/borrow/[pair].tsx:93
+#: src/pages/kashi/borrow/[pair].tsx:106
 #: src/pages/kashi/lend/index.tsx:57
 #: src/pages/kashi/lend/index.tsx:160
+#: src/pages/kashi/lend/[pair].tsx:173
 msgid "Collateral"
 msgstr "担保"
 
@@ -1114,12 +1114,12 @@ msgstr "オープンソース"
 msgid "Open main menu"
 msgstr "メインメニューを開く"
 
+#: src/pages/kashi/borrow/index.tsx:169
 #: src/pages/kashi/borrow/[pair].tsx:95
 #: src/pages/kashi/borrow/[pair].tsx:219
-#: src/pages/kashi/borrow/index.tsx:169
-#: src/pages/kashi/lend/[pair].tsx:190
 #: src/pages/kashi/lend/index.tsx:60
 #: src/pages/kashi/lend/index.tsx:163
+#: src/pages/kashi/lend/[pair].tsx:190
 msgid "Oracle"
 msgstr "オラクル"
 
@@ -1606,8 +1606,8 @@ msgid "Tools to optimize your workflow."
 msgstr "ワークフローを最適化するツール。"
 
 #: src/pages/kashi/borrow/[pair].tsx:198
-#: src/pages/kashi/lend/[pair].tsx:155
 #: src/pages/kashi/lend/index.tsx:188
+#: src/pages/kashi/lend/[pair].tsx:155
 msgid "Total"
 msgstr "合計"
 

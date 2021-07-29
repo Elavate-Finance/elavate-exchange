@@ -35,6 +35,22 @@
       "logoURI": "https://raw.githubusercontent.com/elavate-finance/icons/master/token/elp.jpg"
     },
     {
+      "address": "0xDf424899c16503A3274Eb442bd6fdBe3c112cB5f",
+      "chainId": 20,
+      "name": "Test Token ONE",
+      "symbol": "TSTONE",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/sushiswap/icons/master/token/1inch.jpg"
+    },
+    {
+      "address": "0x7e1FA5983De35B5645B4893133DCb3582E49CBeD",
+      "chainId": 20,
+      "name": "Test Token TWO",
+      "symbol": "TSTTWO",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/sushiswap/icons/master/token/1inch.jpg"
+    },
+    {
       "address": "0x111111111117dC0aa78b770fA6A738034120C302",
       "chainId": 1,
       "name": "1inch Exchange",

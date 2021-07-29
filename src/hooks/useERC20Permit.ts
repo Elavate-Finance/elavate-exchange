@@ -266,9 +266,10 @@ export function useERC20Permit(
   ])
 }
 
+//mdex
 const REMOVE_V2_LIQUIDITY_PERMIT_INFO: PermitInfo = {
   version: '1',
-  name: 'SushiSwap LP Token',
+  name: 'HSwap LP Token',
   type: PermitType.AMOUNT,
 }
 
