@@ -81,7 +81,8 @@ export const injected = new InjectedConnector({
 // mainnet only
 export const walletconnect = new WalletConnectConnector({
   rpc: RPC,
-  bridge: 'https://bridge.walletconnect.org',
+  // bridge: 'https://bridge.walletconnect.org',
+  bridge: 'https://walletconnect.elastos.net/v1',
   qrcode: true,
   pollingInterval: 15000,
 })
